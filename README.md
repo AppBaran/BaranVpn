@@ -9,7 +9,7 @@
 
 ---
 # Baran VPN | باران وی‌پی‌ان 🚀
-
+# تمامی پروتکل ها کار میکنن با پینگ 100 مناسب برای همه اپراتور ها 
 <p align="center">
   <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/photo_2026-09-14_16-19-16.jpg" width="25%" alt="Baran VPN" />
   <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/photo_2026-09-14_16-19-36.jpg" width="25%" alt="Baran VPN" />
