@@ -1,0 +1,62 @@
+plugins { id 'com.android.application' }
+
+dependencies {
+    implementation 'androidx.core:core:1.15.0'
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation 'androidx.drawerlayout:drawerlayout:1.2.0'
+    implementation 'androidx.work:work-runtime:2.10.0'
+    implementation 'com.google.android.material:material:1.12.0'
+    implementation 'ca.psiphon:psiphontunnel:2.0.41'
+    implementation 'com.google.code.gson:gson:2.10.1'
+    testImplementation 'junit:junit:4.13.2'
+}
+
+def signingProperties = new Properties()
+def signingPropertiesFile = rootProject.file('.android-signing/signing.properties')
+if (signingPropertiesFile.exists()) signingPropertiesFile.withInputStream { signingProperties.load(it) }
+def keystorePath = System.getenv('ANDROID_KEYSTORE_PATH') ?: signingProperties.getProperty('storeFile')
+def keystorePassword = System.getenv('ANDROID_KEYSTORE_PASSWORD') ?: signingProperties.getProperty('storePassword')
+def keyAliasName = System.getenv('ANDROID_KEY_ALIAS') ?: signingProperties.getProperty('keyAlias')
+def keyPasswordValue = System.getenv('ANDROID_KEY_PASSWORD') ?: signingProperties.getProperty('keyPassword')
+def releaseSigningAvailable = keystorePath && keystorePassword && keyAliasName && keyPasswordValue
+
+android {
+    namespace 'ir.baran.vpn'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'ir.baran.vpn'
+        minSdk 26
+        targetSdk 35
+
+        versionCode 26
+        versionName '2.2.0'
+    }
+    lint {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+    signingConfigs {
+        release {
+            if (releaseSigningAvailable) {
+                storeFile rootProject.file(keystorePath)
+                storePassword keystorePassword
+                keyAlias keyAliasName
+                keyPassword keyPasswordValue
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig (releaseSigningAvailable ? signingConfigs.release : signingConfigs.debug)
+        }
+    }
+
+    packaging { jniLibs { useLegacyPackaging true } }
+    buildFeatures { viewBinding true; buildConfig true }
+    sourceSets { main { assets.srcDirs += ['../../third-party'] } }
+    splits { abi { enable true; reset(); include 'armeabi-v7a', 'arm64-v8a', 'x86_64'; universalApk true } }
+}

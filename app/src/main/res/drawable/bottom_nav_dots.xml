@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#B37E5BEF"
+                android:centerColor="#CC9374F5"
+                android:endColor="#B37E5BEF"
+                android:angle="0"/>
+            <corners android:radius="28dp" />
+            <stroke android:width="1.5dp" android:color="#40FFFFFF" />
+        </shape>
+    </item>
+    <!-- Dots as small circles -->
+    <item android:gravity="top|left" android:left="30dp" android:top="15dp">
+        <shape android:shape="oval">
+            <solid android:color="#80FFFFFF"/>
+            <size android:width="2dp" android:height="2dp"/>
+        </shape>
+    </item>
+    <item android:gravity="bottom|right" android:right="50dp" android:bottom="10dp">
+        <shape android:shape="oval">
+            <solid android:color="#40FFFFFF"/>
+            <size android:width="3dp" android:height="3dp"/>
+        </shape>
+    </item>
+    <item android:gravity="center_vertical|left" android:left="80dp">
+        <shape android:shape="oval">
+            <solid android:color="#60FFFFFF"/>
+            <size android:width="1.5dp" android:height="1.5dp"/>
+        </shape>
+    </item>
+     <item android:gravity="top|right" android:right="20dp" android:top="10dp">
+        <shape android:shape="oval">
+            <solid android:color="#50FFFFFF"/>
+            <size android:width="2.5dp" android:height="2.5dp"/>
+        </shape>
+    </item>
+</layer-list>

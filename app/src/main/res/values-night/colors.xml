@@ -1,0 +1,24 @@
+<resources>
+    <!-- طیف آبی/بنفش نئونی برای المان‌های اصلی -->
+    <color name="blue_700">#C084FC</color>
+    <color name="blue_600">#A855F7</color> <!-- بنفش/یاسی نئونی اصلی برند -->
+
+    <!-- سطوح و پس‌زمینه: مشکیِ خالص با ته¬رنگِ خیلی ملایم بنفش تیره -->
+    <color name="surface">#120F1D</color>
+    <color name="background">#07050B</color>
+
+    <!-- متن‌ها: سفید درخشان و خاکستری متالیک -->
+    <color name="text">#FAFAFA</color>
+    <color name="muted">#9CA3AF</color>
+    <color name="border">#27213B</color>
+
+    <!-- رنگ‌های وضعیت (نئونی و زنده) -->
+    <color name="green">#00FFCC</color> <!-- سبز فیروزه‌ای ماتریکسی/نئونی -->
+    <color name="red">#FF3366</color>     <!-- قرمز نئونی جیغ -->
+    <color name="amber">#FFB800</color>    <!-- کهربایی خفن -->
+
+    <!-- گرادانت‌های بخش Hero (شروع، میانه و پایان) -->
+    <color name="on_hero">#FFFFFF</color>
+
+    <!-- صفحات لاگ و کد -->
+</resources>

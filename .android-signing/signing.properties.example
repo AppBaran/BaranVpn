@@ -1,0 +1,8 @@
+# Release Signing Credentials
+# Copy this file to 'signing.properties' and fill in your details.
+# DO NOT commit the actual 'signing.properties' file to version control.
+
+storeFile=path/to/your/keystore.jks
+storePassword=your_keystore_password
+keyAlias=your_key_alias
+keyPassword=your_key_password

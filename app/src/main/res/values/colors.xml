@@ -1,0 +1,27 @@
+<resources>
+    <color name="purple_900">#23124D</color>
+    <color name="purple_800">#361A7B</color>
+    <color name="purple_700">#4F29B1</color>
+    <color name="purple_600">#7E5BEF</color>
+    <color name="purple_200">#D2C4FF</color>
+    <color name="purple_100">#EAE4FF</color>
+    <color name="surface">#1E0B2D</color>
+    <color name="background">#0F071D</color>
+    <color name="text">#FFFFFF</color>
+    <color name="muted">#A78BFA</color>
+    <color name="border">#2D1B5A</color>
+    <color name="green">#10B981</color>
+    <color name="red">#EF4444</color>
+    <color name="amber">#F59E0B</color>
+    <color name="on_hero">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue_700">#7E5BEF</color>
+    <color name="blue_600">#7E5BEF</color>
+    <color name="blue_50">#6D44F4</color>
+    <color name="blue_100">#6D44F4</color>
+
+    <!-- Glass colors -->
+    <color name="glass_purple">#B37E5BEF</color>
+    <color name="glass_purple_bright">#CC9374F5</color>
+    <color name="glass_stroke">#40FFFFFF</color>
+</resources>
