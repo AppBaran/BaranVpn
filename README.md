@@ -8,7 +8,12 @@
 پکیج: `ir.baran.vpn` | حداقل اندروید: 8.0 (API 26)
 
 ---
+# Baran VPN | باران وی‌پی‌ان 🚀
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/photo_2026-09-14_16-19-16.jpg" width="45%" alt="Baran VPN Screenshot 1" />
+  <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/photo_2026-09-14_16-19-36.jpg" width="45%" alt="Baran VPN Screenshot 2" />
+</p>
 ## فارسی
 
 ### معرفی
