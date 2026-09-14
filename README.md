@@ -1,5 +1,5 @@
 
-# Baran VPN
+# Baran VPN | باران وی‌پی‌ان 🚀
 
 **قوی‌ترین فیلترشکن روز دنیا برای اندروید**  
 **The strongest filter-breaker of the day for Android**
@@ -9,7 +9,6 @@
 
 ۱. فایل **[دانلود Baran vpn v 2.2.0 All device.apk](https://github.com/AppBaran/BaranVpn/releases/tag/v2.2.0)** را از بخش انتشار رسمی دریافت کنید.
 ---
-# Baran VPN | باران وی‌پی‌ان 🚀
 # تمامی پروتکل ها کار میکنن با پینگ 100 مناسب برای همه اپراتور ها و بیش از 430 سرور فعال  
 <p align="center">
   <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/photo_2026-09-14_16-19-16.jpg" width="25%" alt="Baran VPN" />
