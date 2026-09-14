@@ -11,10 +11,17 @@
 # Baran VPN | باران وی‌پی‌ان 🚀
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/photo_2026-09-14_16-19-16.jpg" width="45%" alt="Baran VPN Screenshot 1" />
-  <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/photo_2026-09-14_16-19-36.jpg" width="45%" alt="Baran VPN Screenshot 2" />
+  <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/photo_2026-09-14_16-19-16.jpg" width="25%" alt="Baran VPN" />
+  <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/photo_2026-09-14_16-19-36.jpg" width="25%" alt="Baran VPN" />
+  <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/Screenshot_2026-09-14-16-25-44-027_ir.baran.vpn.jpg" width="25%" alt="Baran VPN" />
 </p>
-## فارسی
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/Screenshot_2026-09-14-16-25-27-397_ir.baran.vpn.jpg" width="25%" alt="Baran VPN" />
+  <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/Screenshot_2026-09-14-16-25-13-158_ir.baran.vpn.jpg" width="25%" alt="Baran VPN" />
+  <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/Screenshot_2026-09-14-16-24-54-887_ir.baran.vpn.jpg" width="25%" alt="Baran VPN" />
+  <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/Screenshot_2026-09-14-15-57-35-409_ir.baran.vpn.jpg" width="25%" alt="Baran VPN" />
+</p>ی
 
 ### معرفی
 **Baran VPN** یک کلاینت VPN پیشرفته و رایگان برای اندروید است که با تمرکز روی دور زدن سانسور (به‌خصوص در ایران) طراحی شده. هسته اصلی بر پایه **Psiphon** ساخته شده و از پروتکل‌های مدرن مثل WireGuard، WARP، MASQUE و Tor پشتیبانی می‌کند. رابط کاربری مدرن، پشتیبانی کامل از زبان فارسی، و قابلیت‌های حرفه‌ای مثل Split Tunneling و Kill Switch دارد.
