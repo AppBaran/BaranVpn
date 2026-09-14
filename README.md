@@ -9,7 +9,7 @@
 
 ---
 # Baran VPN | باران وی‌پی‌ان 🚀
-# تمامی پروتکل ها کار میکنن با پینگ 100 مناسب برای همه اپراتور ها 
+# تمامی پروتکل ها کار میکنن با پینگ 100 مناسب برای همه اپراتور ها و بیش از 430 سرور فعال  
 <p align="center">
   <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/photo_2026-09-14_16-19-16.jpg" width="25%" alt="Baran VPN" />
   <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/photo_2026-09-14_16-19-36.jpg" width="25%" alt="Baran VPN" />
@@ -236,7 +236,8 @@ Or from the Telegram channel: [@appFilmBaran](https://t.me/appFilmBaran)
 | Core | Psiphon Tunnel + custom AetherVpnService |
 | Architectures | armeabi-v7a, arm64-v8a, x86_64 (+ universal) |
 | Languages | Persian (fa), English |
-
+| Psiphon  | V2.0.41 |
+| Aether  | V2.0.0 |
 ---
 
 ## Links
