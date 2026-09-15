@@ -7,6 +7,11 @@
 نسخه فعلی: **2.2.0** | Current version: **2.2.0**  
 پکیج: `ir.baran.vpn` | حداقل اندروید: 8.0 (API 26)
 
+## License
+
+This project is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.  
+See the [LICENSE](LICENSE) file for details.
+
 ۱. فایل **[دانلود Baran vpn v 2.2.0 All device.apk](https://github.com/AppBaran/BaranVpn/releases/tag/v2.2.0)** را از بخش انتشار رسمی دریافت کنید.
 ---
 # تمامی پروتکل ها کار میکنن با پینگ 100 مناسب برای همه اپراتور ها و بیش از 430 سرور فعال  
