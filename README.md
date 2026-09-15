@@ -7,10 +7,7 @@
 نسخه فعلی: **2.2.0** | Current version: **2.2.0**  
 پکیج: `ir.baran.vpn` | حداقل اندروید: 8.0 (API 26)
 
-## License
 
-This project is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.  
-See the [LICENSE](LICENSE) file for details.
 
 ۱. فایل **[دانلود Baran vpn v 2.2.0 All device.apk](https://github.com/AppBaran/BaranVpn/releases/tag/v2.2.0)** را از بخش انتشار رسمی دریافت کنید.
 ---
@@ -244,6 +241,10 @@ Or from the Telegram channel: [@appFilmBaran](https://t.me/appFilmBaran)
 | Psiphon  | V2.0.41 |
 | Aether  | V2.0.0 |
 ---
+## License
+
+This project is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.  
+See the [LICENSE](LICENSE) file for details.
 
 ## Links
 
