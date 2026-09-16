@@ -256,7 +256,7 @@ Or from the Telegram channel: [@appFilmBaran](https://t.me/appFilmBaran)
 | Languages | Persian (fa), English |
 | Psiphon | V2.0.41 |
 | Aether | V2.0.0 |
-
+| Xray | V26.9.9 |
 ---
 
 ## License
