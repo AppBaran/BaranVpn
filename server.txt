@@ -16,5 +16,4 @@
 #   https://raw.githubusercontent.com/Mahdi0024/ProxyCollector/master/sub/proxies.txt
 #   https://raw.githubusercontent.com/luxxuria/harvester/refs/heads/main/speed_tested.txt
 #   https://github.com/Epodonios/v2ray-configs/raw/main/All_Configs_Sub.txt
-#   https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/all_sub.txt
-#   https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/refs/heads/main/all_configs.txt
+
