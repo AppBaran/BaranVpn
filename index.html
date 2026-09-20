@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Baran VPN | باران وی‌پی‌ان</title>
+  <meta name="description" content="قوی‌ترین فیلترشکن رایگان اندروید | The strongest free Android VPN for censorship circumvention" />
+  
+  <!-- Vazirmatn Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #08080f;
+      --card: #12121f;
+      --card-hover: #1a1a2e;
+      --text: #f1f1f6;
+      --muted: #9ca3af;
+      --primary: #a855f7;
+      --primary-light: #c084fc;
+      --accent: #22d3ee;
+      --glow: rgba(168, 85, 247, 0.4);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Vazirmatn', system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    /* Background effects */
+    .bg-glow {
+      position: fixed;
+      top: -15%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 900px;
+      height: 700px;
+      background: radial-gradient(circle, var(--glow) 0%, transparent 65%);
+      pointer-events: none;
+      z-index: 0;
+      filter: blur(40px);
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 30px 18px 80px;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* Language Switcher */
+    .lang-switch {
+      position: fixed;
+      top: 18px;
+      left: 18px;
+      z-index: 100;
+      display: flex;
+      gap: 6px;
+      background: rgba(18, 18, 31, 0.9);
+      padding: 6px;
+      border-radius: 14px;
+      border: 1px solid rgba(168, 85, 247, 0.25);
+      backdrop-filter: blur(10px);
+    }
+
+    .lang-btn {
+      padding: 7px 16px;
+      border-radius: 10px;
+      border: none;
+      background: transparent;
+      color: var(--muted);
+      font-family: inherit;
+      font-size: 0.9rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .lang-btn.active {
+      background: var(--primary);
+      color: white;
+      box-shadow: 0 4px 15px rgba(168, 85, 247, 0.4);
+    }
+
+    /* Header */
+    header {
+      text-align: center;
+      padding-top: 50px;
+      margin-bottom: 40px;
+    }
+
+    .logo {
+      font-size: 3.4rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, #c084fc 0%, #22d3ee 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 10px;
+      letter-spacing: -1px;
+    }
+
+    .tagline {
+      font-size: 1.2rem;
+      color: var(--muted);
+      margin-bottom: 14px;
+    }
+
+    .version-badge {
+      display: inline-block;
+      background: rgba(168, 85, 247, 0.12);
+      color: var(--primary-light);
+      padding: 5px 18px;
+      border-radius: 999px;
+      font-size: 0.9rem;
+      border: 1px solid rgba(168, 85, 247, 0.3);
+    }
+
+    /* Hero */
+    .hero {
+      background: var(--card);
+      border-radius: 28px;
+      padding: 42px 28px;
+      text-align: center;
+      border: 1px solid rgba(168, 85, 247, 0.18);
+      box-shadow: 0 0 50px rgba(168, 85, 247, 0.08);
+      margin-bottom: 50px;
+    }
+
+    .hero h1 {
+      font-size: 1.75rem;
+      margin-bottom: 14px;
+      line-height: 1.45;
+    }
+
+    .hero p {
+      color: var(--muted);
+      font-size: 1.05rem;
+      max-width: 580px;
+      margin: 0 auto 32px;
+    }
+
+    .download-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      background: linear-gradient(135deg, #a855f7, #7c3aed);
+      color: white;
+      font-size: 1.15rem;
+      font-weight: 600;
+      padding: 17px 40px;
+      border-radius: 18px;
+      text-decoration: none;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      box-shadow: 0 10px 30px rgba(168, 85, 247, 0.45);
+    }
+
+    .download-btn:hover {
+      transform: translateY(-4px) scale(1.02);
+      box-shadow: 0 16px 40px rgba(168, 85, 247, 0.6);
+    }
+
+    .download-btn svg {
+      width: 22px;
+      height: 22px;
+    }
+
+    .sub-links {
+      margin-top: 22px;
+      display: flex;
+      justify-content: center;
+      gap: 28px;
+      flex-wrap: wrap;
+    }
+
+    .sub-links a {
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.95rem;
+      transition: color 0.2s;
+    }
+
+    .sub-links a:hover {
+      color: #67e8f9;
+    }
+
+    /* Section Title */
+    .section-title {
+      text-align: center;
+      font-size: 1.55rem;
+      margin-bottom: 28px;
+      color: #e0e0ff;
+    }
+
+    /* Protocols */
+    .protocols {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      margin-bottom: 55px;
+    }
+
+    .protocol {
+      background: rgba(34, 211, 238, 0.08);
+      color: var(--accent);
+      padding: 8px 18px;
+      border-radius: 999px;
+      font-size: 0.9rem;
+      border: 1px solid rgba(34, 211, 238, 0.22);
+      transition: all 0.2s;
+    }
+
+    .protocol:hover {
+      background: rgba(34, 211, 238, 0.15);
+      transform: translateY(-2px);
+    }
+
+    /* Features */
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+      gap: 18px;
+      margin-bottom: 60px;
+    }
+
+    .feature {
+      background: var(--card);
+      border-radius: 20px;
+      padding: 26px;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      transition: all 0.25s;
+    }
+
+    .feature:hover {
+      border-color: rgba(168, 85, 247, 0.35);
+      background: var(--card-hover);
+      transform: translateY(-3px);
+    }
+
+    .feature h3 {
+      font-size: 1.12rem;
+      margin-bottom: 8px;
+      color: var(--primary-light);
+    }
+
+    .feature p {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    /* Gallery */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 16px;
+      margin-bottom: 60px;
+    }
+
+    .gallery-item {
+      position: relative;
+      border-radius: 18px;
+      overflow: hidden;
+      aspect-ratio: 9/16;
+      background: var(--card);
+      border: 1px solid rgba(168, 85, 247, 0.15);
+      cursor: pointer;
+      transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .gallery-item:hover {
+      border-color: rgba(168, 85, 247, 0.5);
+      box-shadow: 0 0 30px rgba(168, 85, 247, 0.25);
+      transform: translateY(-6px);
+    }
+
+    .gallery-item:hover img {
+      transform: scale(1.08);
+    }
+
+    .gallery-item::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(8, 8, 15, 0.7) 0%, transparent 40%);
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .gallery-item:hover::after {
+      opacity: 1;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.9rem;
+      padding-top: 40px;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    footer a {
+      color: var(--primary-light);
+      text-decoration: none;
+      margin: 0 8px;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* Language content */
+    .lang-fa { display: block; }
+    .lang-en { display: none; }
+
+    body.en .lang-fa { display: none; }
+    body.en .lang-en { display: block; }
+    body.en { direction: ltr; }
+    body.en .lang-switch { left: auto; right: 18px; }
+
+    @media (max-width: 640px) {
+      .logo { font-size: 2.5rem; }
+      .hero h1 { font-size: 1.4rem; }
+      .download-btn { width: 100%; justify-content: center; }
+      .gallery { grid-template-columns: repeat(2, 1fr); }
+      .lang-switch { top: 12px; left: 12px; }
+      body.en .lang-switch { right: 12px; left: auto; }
+    }
+  </style>
+</head>
+<body>
+  <div class="bg-glow"></div>
+
+  <!-- Language Switcher -->
+  <div class="lang-switch">
+    <button class="lang-btn active" onclick="setLang('fa')">فارسی</button>
+    <button class="lang-btn" onclick="setLang('en')">English</button>
+  </div>
+
+  <div class="container">
+    <header>
+      <div class="logo">Baran VPN</div>
+      <div class="tagline">
+        <span class="lang-fa">قوی‌ترین فیلترشکن روز دنیا برای اندروید</span>
+        <span class="lang-en">The strongest filter-breaker for Android</span>
+      </div>
+      <div class="version-badge">
+        <span class="lang-fa">نسخه ۲.۳.۱ • رایگان و متن‌باز</span>
+        <span class="lang-en">Version 2.3.1 • Free & Open Source</span>
+      </div>
+    </header>
+
+    <section class="hero">
+      <h1>
+        <span class="lang-fa">اتصال پایدار حتی در شدیدترین فیلترینگ</span>
+        <span class="lang-en">Stable connection even under heavy filtering</span>
+      </h1>
+      <p>
+        <span class="lang-fa">
+          کلاینت پیشرفته و رایگان با پشتیبانی از چندین پروتکل قدرتمند.
+          طراحی‌شده مخصوص شرایط ایران با رابط فارسی کامل و قابلیت‌های حرفه‌ای.
+        </span>
+        <span class="lang-en">
+          A powerful free multi-protocol Android client focused on censorship circumvention.
+          Built with modern protocols and a beautiful bilingual interface.
+        </span>
+      </p>
+
+      <a class="download-btn" href="https://github.com/AppBaran/BaranVpn/releases/latest" target="_blank" rel="noopener">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+        </svg>
+        <span class="lang-fa">دانلود آخرین نسخه</span>
+        <span class="lang-en">Download Latest Version</span>
+      </a>
+
+      <div class="sub-links">
+        <a href="https://github.com/AppBaran/BaranVpn" target="_blank">
+          <span class="lang-fa">مشاهده در گیت‌هاب</span>
+          <span class="lang-en">View on GitHub</span>
+        </a>
+        <a href="https://t.me/appFilmBaran" target="_blank">
+          <span class="lang-fa">کانال تلگرام</span>
+          <span class="lang-en">Telegram Channel</span>
+        </a>
+      </div>
+    </section>
+
+    <h2 class="section-title">
+      <span class="lang-fa">پروتکل‌های پشتیبانی‌شده</span>
+      <span class="lang-en">Supported Protocols</span>
+    </h2>
+    <div class="protocols">
+      <span class="protocol">Smart Connect</span>
+      <span class="protocol">Psiphon</span>
+      <span class="protocol">WireGuard</span>
+      <span class="protocol">WARP / gool</span>
+      <span class="protocol">MASQUE</span>
+      <span class="protocol">Tor</span>
+      <span class="protocol">V2Ray / Xray</span>
+    </div>
+
+    <h2 class="section-title">
+      <span class="lang-fa">ویژگی‌های کلیدی</span>
+      <span class="lang-en">Key Features</span>
+    </h2>
+    <div class="features">
+      <div class="feature">
+        <h3>
+          <span class="lang-fa">اتصال هوشمند</span>
+          <span class="lang-en">Smart Connect</span>
+        </h3>
+        <p>
+          <span class="lang-fa">تست خودکار پروتکل‌ها و انتخاب سریع‌ترین و پایدارترین مسیر</span>
+          <span class="lang-en">Automatically tests protocols and picks the fastest reliable route</span>
+        </p>
+      </div>
+      <div class="feature">
+        <h3>
+          <span class="lang-fa">مقاوم در برابر فیلتر</span>
+          <span class="lang-en">Censorship Resistant</span>
+        </h3>
+        <p>
+          <span class="lang-fa">طراحی‌شده برای شبکه‌های محدود با قابلیت‌های مبهم‌سازی پیشرفته</span>
+          <span class="lang-en">Built for restricted networks with advanced obfuscation options</span>
+        </p>
+      </div>
+      <div class="feature">
+        <h3>Kill Switch</h3>
+        <p>
+          <span class="lang-fa">مسدودسازی ترافیک در صورت قطع ناگهانی تونل برای حفظ امنیت</span>
+          <span class="lang-en">Blocks traffic if the tunnel drops to keep you protected</span>
+        </p>
+      </div>
+      <div class="feature">
+        <h3>Split Tunneling</h3>
+        <p>
+          <span class="lang-fa">انتخاب اپ‌هایی که از VPN عبور کنند یا نکنند</span>
+          <span class="lang-en">Choose which apps go through the VPN or bypass it</span>
+        </p>
+      </div>
+      <div class="feature">
+        <h3>
+          <span class="lang-fa">رابط دوزبانه</span>
+          <span class="lang-en">Bilingual UI</span>
+        </h3>
+        <p>
+          <span class="lang-fa">پشتیبانی کامل از فارسی و انگلیسی + تم تاریک مدرن</span>
+          <span class="lang-en">Full Persian & English support with modern dark theme</span>
+        </p>
+      </div>
+      <div class="feature">
+        <h3>
+          <span class="lang-fa">به‌روزرسانی داخل اپ</span>
+          <span class="lang-en">In-App Updates</span>
+        </h3>
+        <p>
+          <span class="lang-fa">بررسی و نصب نسخه جدید بدون نیاز به سایت خارجی</span>
+          <span class="lang-en">Check and install new versions directly inside the app</span>
+        </p>
+      </div>
+    </div>
+
+    <!-- Gallery -->
+    <h2 class="section-title">
+      <span class="lang-fa">تصاویر برنامه</span>
+      <span class="lang-en">App Screenshots</span>
+    </h2>
+    <div class="gallery">
+      <div class="gallery-item"><img src="1.jpg" alt="Screenshot 1" loading="lazy"></div>
+      <div class="gallery-item"><img src="2.jpg" alt="Screenshot 2" loading="lazy"></div>
+      <div class="gallery-item"><img src="3.jpg" alt="Screenshot 3" loading="lazy"></div>
+      <div class="gallery-item"><img src="4.jpg" alt="Screenshot 4" loading="lazy"></div>
+      <div class="gallery-item"><img src="5.jpg" alt="Screenshot 5" loading="lazy"></div>
+      <div class="gallery-item"><img src="6.jpg" alt="Screenshot 6" loading="lazy"></div>
+      <div class="gallery-item"><img src="7.jpg" alt="Screenshot 7" loading="lazy"></div>
+      <div class="gallery-item"><img src="8.jpg" alt="Screenshot 8" loading="lazy"></div>
+      <div class="gallery-item"><img src="9.jpg" alt="Screenshot 9" loading="lazy"></div>
+      <div class="gallery-item"><img src="10.jpg" alt="Screenshot 10" loading="lazy"></div>
+      <div class="gallery-item"><img src="11.jpg" alt="Screenshot 11" loading="lazy"></div>
+      <div class="gallery-item"><img src="12.jpg" alt="Screenshot 12" loading="lazy"></div>
+    </div>
+
+    <footer>
+      <p>
+        <span class="lang-fa">ساخته شده با ❤️ برای دسترسی آزاد به اینترنت</span>
+        <span class="lang-en">Made with ❤️ for free access to the internet</span>
+      </p>
+      <p style="margin-top: 10px;">
+        <a href="https://github.com/AppBaran/BaranVpn">GitHub</a> •
+        <a href="https://t.me/appFilmBaran">Telegram</a>
+      </p>
+    </footer>
+  </div>
+
+  <script>
+    function setLang(lang) {
+      document.body.classList.toggle('en', lang === 'en');
+      document.querySelectorAll('.lang-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.textContent.trim().toLowerCase().includes(lang === 'fa' ? 'فارسی' : 'english'));
+      });
+      // Save preference
+      localStorage.setItem('baran-lang', lang);
+    }
+
+    // Load saved language
+    const saved = localStorage.getItem('baran-lang');
+    if (saved === 'en') setLang('en');
+  </script>
+</body>
+</html>
