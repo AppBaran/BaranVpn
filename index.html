@@ -6,7 +6,6 @@
   <title>Baran VPN | باران وی‌پی‌ان</title>
   <meta name="description" content="قوی‌ترین فیلترشکن رایگان اندروید | The strongest free Android VPN for censorship circumvention" />
   
-  <!-- Vazirmatn Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
@@ -23,11 +22,7 @@
       --glow: rgba(168, 85, 247, 0.4);
     }
 
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
 
     body {
       font-family: 'Vazirmatn', system-ui, -apple-system, sans-serif;
@@ -38,7 +33,6 @@
       overflow-x: hidden;
     }
 
-    /* Background effects */
     .bg-glow {
       position: fixed;
       top: -15%;
@@ -109,7 +103,6 @@
       -webkit-text-fill-color: transparent;
       background-clip: text;
       margin-bottom: 10px;
-      letter-spacing: -1px;
     }
 
     .tagline {
@@ -172,10 +165,7 @@
       box-shadow: 0 16px 40px rgba(168, 85, 247, 0.6);
     }
 
-    .download-btn svg {
-      width: 22px;
-      height: 22px;
-    }
+    .download-btn svg { width: 22px; height: 22px; }
 
     .sub-links {
       margin-top: 22px;
@@ -192,9 +182,7 @@
       transition: color 0.2s;
     }
 
-    .sub-links a:hover {
-      color: #67e8f9;
-    }
+    .sub-links a:hover { color: #67e8f9; }
 
     /* Section Title */
     .section-title {
@@ -204,13 +192,13 @@
       color: #e0e0ff;
     }
 
-    /* Protocols */
+    /* Protocols Chips */
     .protocols {
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
       justify-content: center;
-      margin-bottom: 55px;
+      margin-bottom: 50px;
     }
 
     .protocol {
@@ -226,6 +214,43 @@
     .protocol:hover {
       background: rgba(34, 211, 238, 0.15);
       transform: translateY(-2px);
+    }
+
+    /* Protocol Cards (detailed) */
+    .protocol-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 18px;
+      margin-bottom: 60px;
+    }
+
+    .protocol-card {
+      background: var(--card);
+      border-radius: 20px;
+      padding: 26px;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      transition: all 0.25s;
+    }
+
+    .protocol-card:hover {
+      border-color: rgba(168, 85, 247, 0.35);
+      background: var(--card-hover);
+      transform: translateY(-3px);
+    }
+
+    .protocol-card h3 {
+      font-size: 1.15rem;
+      margin-bottom: 10px;
+      color: var(--primary-light);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .protocol-card p {
+      color: var(--muted);
+      font-size: 0.95rem;
+      line-height: 1.65;
     }
 
     /* Features */
@@ -297,19 +322,6 @@
       transform: scale(1.08);
     }
 
-    .gallery-item::after {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(to top, rgba(8, 8, 15, 0.7) 0%, transparent 40%);
-      opacity: 0;
-      transition: opacity 0.3s;
-    }
-
-    .gallery-item:hover::after {
-      opacity: 1;
-    }
-
     /* Footer */
     footer {
       text-align: center;
@@ -325,11 +337,9 @@
       margin: 0 8px;
     }
 
-    footer a:hover {
-      text-decoration: underline;
-    }
+    footer a:hover { text-decoration: underline; }
 
-    /* Language content */
+    /* Language */
     .lang-fa { display: block; }
     .lang-en { display: none; }
 
@@ -351,7 +361,6 @@
 <body>
   <div class="bg-glow"></div>
 
-  <!-- Language Switcher -->
   <div class="lang-switch">
     <button class="lang-btn active" onclick="setLang('fa')">فارسی</button>
     <button class="lang-btn" onclick="setLang('en')">English</button>
@@ -407,6 +416,7 @@
       </div>
     </section>
 
+    <!-- Protocols Chips -->
     <h2 class="section-title">
       <span class="lang-fa">پروتکل‌های پشتیبانی‌شده</span>
       <span class="lang-en">Supported Protocols</span>
@@ -421,6 +431,100 @@
       <span class="protocol">V2Ray / Xray</span>
     </div>
 
+    <!-- Detailed Protocol Explanations -->
+    <h2 class="section-title">
+      <span class="lang-fa">توضیح پروتکل‌ها و نحوه کار</span>
+      <span class="lang-en">How the Protocols Work</span>
+    </h2>
+    <div class="protocol-grid">
+
+      <div class="protocol-card">
+        <h3>⚡ Smart Connect</h3>
+        <p>
+          <span class="lang-fa">
+            حالت هوشمند برنامه. تمام پروتکل‌های موجود را به صورت خودکار تست می‌کند و سریع‌ترین و پایدارترین مسیر را انتخاب می‌کند. بهترین گزینه برای اکثر کاربران.
+          </span>
+          <span class="lang-en">
+            Automatically tests all available protocols and selects the fastest and most reliable route. Best choice for most users.
+          </span>
+        </p>
+      </div>
+
+      <div class="protocol-card">
+        <h3>🛡 Psiphon</h3>
+        <p>
+          <span class="lang-fa">
+            یکی از قوی‌ترین ابزارهای عبور از فیلترینگ. با استفاده از زنجیره پروکسی و تکنیک‌های پیشرفته، حتی در شبکه‌های بسیار محدود هم کار می‌کند. قابلیت انتخاب کشور خروجی دارد.
+          </span>
+          <span class="lang-en">
+            One of the strongest censorship circumvention tools. Uses upstream proxy chaining and advanced techniques to work even on heavily restricted networks. Supports egress region selection.
+          </span>
+        </p>
+      </div>
+
+      <div class="protocol-card">
+        <h3>🔗 WireGuard</h3>
+        <p>
+          <span class="lang-fa">
+            پروتکل مدرن، سریع و سبک. اتصال پایدار با مصرف باتری کم و IP نسبتاً ثابت. مناسب برای استفاده روزمره و سرعت بالا.
+          </span>
+          <span class="lang-en">
+            Modern, fast and lightweight protocol. Provides a stable connection with low battery usage and a more consistent IP. Great for daily use.
+          </span>
+        </p>
+      </div>
+
+      <div class="protocol-card">
+        <h3>☁️ WARP / gool</h3>
+        <p>
+          <span class="lang-fa">
+            بر پایه شبکه Cloudflare. IP شما را به سرورهای Cloudflare تغییر می‌دهد و حریم خصوصی بالاتری ایجاد می‌کند. نسخه gool (WARP-in-WARP) مقاومت بیشتری در برابر فیلتر دارد.
+          </span>
+          <span class="lang-en">
+            Based on Cloudflare’s network. Changes your IP to Cloudflare and enhances privacy. The gool (WARP-in-WARP) version offers stronger resistance against filtering.
+          </span>
+        </p>
+      </div>
+
+      <div class="protocol-card">
+        <h3>🚀 MASQUE</h3>
+        <p>
+          <span class="lang-fa">
+            پروتکل جدید مبتنی بر HTTP/3 (QUIC). ترافیک را شبیه ترافیک معمولی وب می‌کند و در محیط‌هایی که تونل‌های کلاسیک مسدود شده‌اند، بسیار مؤثر است.
+          </span>
+          <span class="lang-en">
+            Modern protocol based on HTTP/3 (QUIC). Makes traffic look like normal web traffic and works well where classic tunnels are blocked.
+          </span>
+        </p>
+      </div>
+
+      <div class="protocol-card">
+        <h3>🧅 Tor</h3>
+        <p>
+          <span class="lang-fa">
+            ترافیک شما را از شبکه Tor عبور می‌دهد و ناشناس‌سازی بسیار بالایی ایجاد می‌کند. می‌تواند روی حامل‌های WARP، WireGuard یا مستقیم اجرا شود.
+          </span>
+          <span class="lang-en">
+            Routes your traffic through the Tor network for high anonymity. Can run over WARP, WireGuard, or direct carriers.
+          </span>
+        </p>
+      </div>
+
+      <div class="protocol-card">
+        <h3>📡 V2Ray / Xray</h3>
+        <p>
+          <span class="lang-fa">
+            پشتیبانی کامل از هسته Xray. امکان استفاده از لینک‌های VLESS، VMess، Trojan، Shadowsocks و Hysteria2. قابلیت سابسکرایب، پینگ خودکار و انتخاب بهترین سرور را دارد.
+          </span>
+          <span class="lang-en">
+            Full Xray-core support. Works with VLESS, VMess, Trojan, Shadowsocks and Hysteria2 links. Includes subscription, auto-ping and best-server selection.
+          </span>
+        </p>
+      </div>
+
+    </div>
+
+    <!-- Key Features -->
     <h2 class="section-title">
       <span class="lang-fa">ویژگی‌های کلیدی</span>
       <span class="lang-en">Key Features</span>
@@ -432,7 +536,7 @@
           <span class="lang-en">Smart Connect</span>
         </h3>
         <p>
-          <span class="lang-fa">تست خودکار پروتکل‌ها و انتخاب سریع‌ترین و پایدارترین مسیر</span>
+          <span class="lang-fa">تست خودکار پروتکل‌ها و انتخاب سریع‌ترین مسیر پایدار</span>
           <span class="lang-en">Automatically tests protocols and picks the fastest reliable route</span>
         </p>
       </div>
@@ -443,14 +547,14 @@
         </h3>
         <p>
           <span class="lang-fa">طراحی‌شده برای شبکه‌های محدود با قابلیت‌های مبهم‌سازی پیشرفته</span>
-          <span class="lang-en">Built for restricted networks with advanced obfuscation options</span>
+          <span class="lang-en">Built for restricted networks with advanced obfuscation</span>
         </p>
       </div>
       <div class="feature">
         <h3>Kill Switch</h3>
         <p>
-          <span class="lang-fa">مسدودسازی ترافیک در صورت قطع ناگهانی تونل برای حفظ امنیت</span>
-          <span class="lang-en">Blocks traffic if the tunnel drops to keep you protected</span>
+          <span class="lang-fa">مسدودسازی ترافیک در صورت قطع ناگهانی تونل</span>
+          <span class="lang-en">Blocks traffic if the tunnel drops unexpectedly</span>
         </p>
       </div>
       <div class="feature">
@@ -518,13 +622,14 @@
     function setLang(lang) {
       document.body.classList.toggle('en', lang === 'en');
       document.querySelectorAll('.lang-btn').forEach(btn => {
-        btn.classList.toggle('active', btn.textContent.trim().toLowerCase().includes(lang === 'fa' ? 'فارسی' : 'english'));
+        btn.classList.toggle('active', 
+          (lang === 'fa' && btn.textContent.includes('فارسی')) || 
+          (lang === 'en' && btn.textContent.includes('English'))
+        );
       });
-      // Save preference
       localStorage.setItem('baran-lang', lang);
     }
 
-    // Load saved language
     const saved = localStorage.getItem('baran-lang');
     if (saved === 'en') setLang('en');
   </script>
