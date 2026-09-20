@@ -3,12 +3,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Baran VPN | باران وی‌پی‌ان</title>
-  <meta name="description" content="قوی‌ترین فیلترشکن رایگان اندروید | The strongest free Android VPN for censorship circumvention" />
+  
+  <!-- SEO -->
+  <title>Baran VPN | باران وی‌پی‌ان - قوی‌ترین فیلترشکن رایگان اندروید</title>
+  <meta name="description" content="دانلود باران وی‌پی‌ان | قوی‌ترین فیلترشکن رایگان اندروید با پشتیبانی از Psiphon، WireGuard، WARP، MASQUE، Tor و V2Ray. مناسب همه اپراتورها." />
+  <meta name="keywords" content="فیلترشکن, فیلتر شکن, وی پی ان, VPN رایگان, باران وی‌پی‌ان, Baran VPN, Psiphon, V2Ray, WireGuard, فیلترشکن اندروید, فیلترشکن قوی, دانلود فیلترشکن, فیلتر شکن رایگان" />
+  <meta name="author" content="AppBaran" />
+  <meta name="robots" content="index, follow" />
   <meta name="google-site-verification" content="T8ZlR7_YM5iu_vYFQGuuIlleXDOLOXk2jK3YIICEO0o" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Baran VPN | باران وی‌پی‌ان" />
+  <meta property="og:description" content="قوی‌ترین فیلترشکن رایگان اندروید با پشتیبانی از چندین پروتکل قدرتمند" />
+  <meta property="og:url" content="https://appbaran.github.io/BaranVpn/" />
+  <meta property="og:type" content="website" />
+
+  <!-- Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap" rel="stylesheet">
- 
+
   <style>
     :root {
       --bg: #08080f;
@@ -79,13 +92,17 @@
       font-size: 0.9rem;
       font-weight: 500;
       cursor: pointer;
-      transition: all 0.2s;
+      transition: all 0.25s ease;
     }
 
     .lang-btn.active {
       background: var(--primary);
       color: white;
       box-shadow: 0 4px 15px rgba(168, 85, 247, 0.4);
+    }
+
+    .lang-btn:hover:not(.active) {
+      color: var(--primary-light);
     }
 
     /* Header */
@@ -145,6 +162,7 @@
       margin: 0 auto 32px;
     }
 
+    /* Download Button with Animation */
     .download-btn {
       display: inline-flex;
       align-items: center;
@@ -156,33 +174,99 @@
       padding: 17px 40px;
       border-radius: 18px;
       text-decoration: none;
-      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
       box-shadow: 0 10px 30px rgba(168, 85, 247, 0.45);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .download-btn::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+      transition: left 0.5s;
+    }
+
+    .download-btn:hover::before {
+      left: 100%;
     }
 
     .download-btn:hover {
-      transform: translateY(-4px) scale(1.02);
-      box-shadow: 0 16px 40px rgba(168, 85, 247, 0.6);
+      transform: translateY(-5px) scale(1.03);
+      box-shadow: 0 18px 45px rgba(168, 85, 247, 0.6);
+    }
+
+    .download-btn:active {
+      transform: translateY(-2px) scale(0.98);
     }
 
     .download-btn svg { width: 22px; height: 22px; }
 
-    .sub-links {
-      margin-top: 22px;
+    /* Social Buttons */
+    .social-links {
+      margin-top: 28px;
       display: flex;
       justify-content: center;
-      gap: 28px;
+      gap: 16px;
       flex-wrap: wrap;
     }
 
-    .sub-links a {
-      color: var(--accent);
+    .social-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 12px 24px;
+      border-radius: 14px;
       text-decoration: none;
+      font-weight: 500;
       font-size: 0.95rem;
-      transition: color 0.2s;
+      transition: all 0.3s ease;
+      border: 1px solid transparent;
     }
 
-    .sub-links a:hover { color: #67e8f9; }
+    .social-btn.telegram {
+      background: rgba(34, 158, 217, 0.15);
+      color: #38bdf8;
+      border-color: rgba(34, 158, 217, 0.3);
+    }
+
+    .social-btn.telegram:hover {
+      background: rgba(34, 158, 217, 0.25);
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(34, 158, 217, 0.25);
+    }
+
+    .social-btn.instagram {
+      background: rgba(225, 48, 108, 0.12);
+      color: #f472b6;
+      border-color: rgba(225, 48, 108, 0.3);
+    }
+
+    .social-btn.instagram:hover {
+      background: rgba(225, 48, 108, 0.22);
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(225, 48, 108, 0.25);
+    }
+
+    .social-btn.github {
+      background: rgba(255, 255, 255, 0.06);
+      color: #e2e8f0;
+      border-color: rgba(255, 255, 255, 0.12);
+    }
+
+    .social-btn.github:hover {
+      background: rgba(255, 255, 255, 0.12);
+      transform: translateY(-3px);
+    }
+
+    .social-btn svg {
+      width: 20px;
+      height: 20px;
+    }
 
     /* Section Title */
     .section-title {
@@ -192,7 +276,7 @@
       color: #e0e0ff;
     }
 
-    /* Protocols Chips */
+    /* Protocols */
     .protocols {
       display: flex;
       flex-wrap: wrap;
@@ -208,15 +292,15 @@
       border-radius: 999px;
       font-size: 0.9rem;
       border: 1px solid rgba(34, 211, 238, 0.22);
-      transition: all 0.2s;
+      transition: all 0.25s ease;
     }
 
     .protocol:hover {
-      background: rgba(34, 211, 238, 0.15);
-      transform: translateY(-2px);
+      background: rgba(34, 211, 238, 0.18);
+      transform: translateY(-3px);
     }
 
-    /* Protocol Cards (detailed) */
+    /* Protocol Cards */
     .protocol-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -229,22 +313,20 @@
       border-radius: 20px;
       padding: 26px;
       border: 1px solid rgba(255, 255, 255, 0.05);
-      transition: all 0.25s;
+      transition: all 0.3s ease;
     }
 
     .protocol-card:hover {
-      border-color: rgba(168, 85, 247, 0.35);
+      border-color: rgba(168, 85, 247, 0.4);
       background: var(--card-hover);
-      transform: translateY(-3px);
+      transform: translateY(-4px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
     }
 
     .protocol-card h3 {
       font-size: 1.15rem;
       margin-bottom: 10px;
       color: var(--primary-light);
-      display: flex;
-      align-items: center;
-      gap: 8px;
     }
 
     .protocol-card p {
@@ -266,13 +348,13 @@
       border-radius: 20px;
       padding: 26px;
       border: 1px solid rgba(255, 255, 255, 0.05);
-      transition: all 0.25s;
+      transition: all 0.3s ease;
     }
 
     .feature:hover {
-      border-color: rgba(168, 85, 247, 0.35);
+      border-color: rgba(168, 85, 247, 0.4);
       background: var(--card-hover);
-      transform: translateY(-3px);
+      transform: translateY(-4px);
     }
 
     .feature h3 {
@@ -301,8 +383,7 @@
       aspect-ratio: 9/16;
       background: var(--card);
       border: 1px solid rgba(168, 85, 247, 0.15);
-      cursor: pointer;
-      transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+      transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     .gallery-item img {
@@ -314,12 +395,31 @@
 
     .gallery-item:hover {
       border-color: rgba(168, 85, 247, 0.5);
-      box-shadow: 0 0 30px rgba(168, 85, 247, 0.25);
-      transform: translateY(-6px);
+      box-shadow: 0 0 35px rgba(168, 85, 247, 0.3);
+      transform: translateY(-8px);
     }
 
     .gallery-item:hover img {
-      transform: scale(1.08);
+      transform: scale(1.1);
+    }
+
+    /* Hashtags */
+    .hashtags {
+      text-align: center;
+      margin-bottom: 40px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .hashtag {
+      background: rgba(168, 85, 247, 0.1);
+      color: var(--primary-light);
+      padding: 6px 14px;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      border: 1px solid rgba(168, 85, 247, 0.2);
     }
 
     /* Footer */
@@ -335,9 +435,10 @@
       color: var(--primary-light);
       text-decoration: none;
       margin: 0 8px;
+      transition: color 0.2s;
     }
 
-    footer a:hover { text-decoration: underline; }
+    footer a:hover { color: #e9d5ff; }
 
     /* Language */
     .lang-fa { display: block; }
@@ -349,12 +450,14 @@
     body.en .lang-switch { left: auto; right: 18px; }
 
     @media (max-width: 640px) {
-      .logo { font-size: 2.5rem; }
-      .hero h1 { font-size: 1.4rem; }
-      .download-btn { width: 100%; justify-content: center; }
-      .gallery { grid-template-columns: repeat(2, 1fr); }
+      .logo { font-size: 2.4rem; }
+      .hero h1 { font-size: 1.35rem; }
+      .download-btn { width: 100%; justify-content: center; padding: 16px 24px; }
+      .gallery { grid-template-columns: repeat(2, 1fr); gap: 12px; }
       .lang-switch { top: 12px; left: 12px; }
       body.en .lang-switch { right: 12px; left: auto; }
+      .social-links { gap: 12px; }
+      .social-btn { padding: 10px 18px; font-size: 0.9rem; }
     }
   </style>
 </head>
@@ -395,28 +498,37 @@
         </span>
       </p>
 
-<a class="download-btn" href="https://github.com/AppBaran/BaranVpn/releases/download/v2.3.1/Baran.vpn.v.2.3.1.All.device.apk" download>
-  <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-          d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
-  </svg>
-  <span class="lang-fa">دانلود آخرین نسخه</span>
-  <span class="lang-en">Download Latest Version</span>
-</a>
+      <a class="download-btn" href="https://github.com/AppBaran/BaranVpn/releases/download/v2.3.1/Baran.vpn.v.2.3.1.All.device.apk" download>
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+        </svg>
+        <span class="lang-fa">دانلود آخرین نسخه</span>
+        <span class="lang-en">Download Latest Version</span>
+      </a>
 
-      <div class="sub-links">
-        <a href="https://github.com/AppBaran/BaranVpn" target="_blank">
-          <span class="lang-fa">مشاهده در گیت‌هاب</span>
-          <span class="lang-en">View on GitHub</span>
+      <!-- Social Icons -->
+      <div class="social-links">
+        <a class="social-btn telegram" href="https://t.me/appFilmBaran" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.002 0-.003 0-.005 0l.213-3.054 5.56-5.022c.24-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.538-.196 1.006.128.832.941z"/></svg>
+          <span class="lang-fa">تلگرام</span>
+          <span class="lang-en">Telegram</span>
         </a>
-        <a href="https://t.me/appFilmBaran" target="_blank">
-          <span class="lang-fa">کانال تلگرام</span>
-          <span class="lang-en">Telegram Channel</span>
+
+        <a class="social-btn instagram" href="https://instagram.com/appfilmBaran" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+          <span class="lang-fa">اینستاگرام</span>
+          <span class="lang-en">Instagram</span>
+        </a>
+
+        <a class="social-btn github" href="https://github.com/AppBaran/BaranVpn" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+          GitHub
         </a>
       </div>
     </section>
 
-    <!-- Protocols Chips -->
+    <!-- Protocols -->
     <h2 class="section-title">
       <span class="lang-fa">پروتکل‌های پشتیبانی‌شده</span>
       <span class="lang-en">Supported Protocols</span>
@@ -431,158 +543,92 @@
       <span class="protocol">V2Ray / Xray</span>
     </div>
 
-    <!-- Detailed Protocol Explanations -->
+    <!-- Protocol Details -->
     <h2 class="section-title">
       <span class="lang-fa">توضیح پروتکل‌ها و نحوه کار</span>
       <span class="lang-en">How the Protocols Work</span>
     </h2>
     <div class="protocol-grid">
-
       <div class="protocol-card">
         <h3>⚡ Smart Connect</h3>
         <p>
-          <span class="lang-fa">
-            حالت هوشمند برنامه. تمام پروتکل‌های موجود را به صورت خودکار تست می‌کند و سریع‌ترین و پایدارترین مسیر را انتخاب می‌کند. بهترین گزینه برای اکثر کاربران.
-          </span>
-          <span class="lang-en">
-            Automatically tests all available protocols and selects the fastest and most reliable route. Best choice for most users.
-          </span>
+          <span class="lang-fa">حالت هوشمند. تمام پروتکل‌ها را تست می‌کند و سریع‌ترین مسیر پایدار را انتخاب می‌کند. بهترین گزینه برای اکثر کاربران.</span>
+          <span class="lang-en">Automatically tests all protocols and selects the fastest reliable route. Best choice for most users.</span>
         </p>
       </div>
-
       <div class="protocol-card">
         <h3>🛡 Psiphon</h3>
         <p>
-          <span class="lang-fa">
-            یکی از قوی‌ترین ابزارهای عبور از فیلترینگ. با استفاده از زنجیره پروکسی و تکنیک‌های پیشرفته، حتی در شبکه‌های بسیار محدود هم کار می‌کند. قابلیت انتخاب کشور خروجی دارد.
-          </span>
-          <span class="lang-en">
-            One of the strongest censorship circumvention tools. Uses upstream proxy chaining and advanced techniques to work even on heavily restricted networks. Supports egress region selection.
-          </span>
+          <span class="lang-fa">قوی‌ترین ابزار عبور از فیلترینگ. با زنجیره پروکسی و تکنیک‌های پیشرفته حتی در شبکه‌های بسیار محدود کار می‌کند.</span>
+          <span class="lang-en">One of the strongest circumvention tools. Uses upstream proxy chaining to work even on heavily restricted networks.</span>
         </p>
       </div>
-
       <div class="protocol-card">
         <h3>🔗 WireGuard</h3>
         <p>
-          <span class="lang-fa">
-            پروتکل مدرن، سریع و سبک. اتصال پایدار با مصرف باتری کم و IP نسبتاً ثابت. مناسب برای استفاده روزمره و سرعت بالا.
-          </span>
-          <span class="lang-en">
-            Modern, fast and lightweight protocol. Provides a stable connection with low battery usage and a more consistent IP. Great for daily use.
-          </span>
+          <span class="lang-fa">پروتکل مدرن، سریع و سبک با مصرف باتری کم و IP نسبتاً ثابت. مناسب استفاده روزمره.</span>
+          <span class="lang-en">Modern, fast and lightweight protocol with low battery usage and consistent IP. Great for daily use.</span>
         </p>
       </div>
-
       <div class="protocol-card">
         <h3>☁️ WARP / gool</h3>
         <p>
-          <span class="lang-fa">
-            بر پایه شبکه Cloudflare. IP شما را به سرورهای Cloudflare تغییر می‌دهد و حریم خصوصی بالاتری ایجاد می‌کند. نسخه gool (WARP-in-WARP) مقاومت بیشتری در برابر فیلتر دارد.
-          </span>
-          <span class="lang-en">
-            Based on Cloudflare’s network. Changes your IP to Cloudflare and enhances privacy. The gool (WARP-in-WARP) version offers stronger resistance against filtering.
-          </span>
+          <span class="lang-fa">بر پایه Cloudflare. IP را تغییر می‌دهد و حریم خصوصی بالاتر ایجاد می‌کند. نسخه gool مقاومت بیشتری دارد.</span>
+          <span class="lang-en">Based on Cloudflare. Changes your IP and enhances privacy. gool version offers stronger filter resistance.</span>
         </p>
       </div>
-
       <div class="protocol-card">
         <h3>🚀 MASQUE</h3>
         <p>
-          <span class="lang-fa">
-            پروتکل جدید مبتنی بر HTTP/3 (QUIC). ترافیک را شبیه ترافیک معمولی وب می‌کند و در محیط‌هایی که تونل‌های کلاسیک مسدود شده‌اند، بسیار مؤثر است.
-          </span>
-          <span class="lang-en">
-            Modern protocol based on HTTP/3 (QUIC). Makes traffic look like normal web traffic and works well where classic tunnels are blocked.
-          </span>
+          <span class="lang-fa">مبتنی بر HTTP/3 (QUIC). ترافیک را شبیه وب معمولی می‌کند و در محیط‌های محدود بسیار مؤثر است.</span>
+          <span class="lang-en">Based on HTTP/3 (QUIC). Makes traffic look like normal web traffic and works well where classic tunnels are blocked.</span>
         </p>
       </div>
-
       <div class="protocol-card">
         <h3>🧅 Tor</h3>
         <p>
-          <span class="lang-fa">
-            ترافیک شما را از شبکه Tor عبور می‌دهد و ناشناس‌سازی بسیار بالایی ایجاد می‌کند. می‌تواند روی حامل‌های WARP، WireGuard یا مستقیم اجرا شود.
-          </span>
-          <span class="lang-en">
-            Routes your traffic through the Tor network for high anonymity. Can run over WARP, WireGuard, or direct carriers.
-          </span>
+          <span class="lang-fa">ترافیک را از شبکه Tor عبور می‌دهد و ناشناس‌سازی بالایی ایجاد می‌کند. قابل اجرا روی WARP یا WireGuard.</span>
+          <span class="lang-en">Routes traffic through Tor for high anonymity. Can run over WARP, WireGuard or direct.</span>
         </p>
       </div>
-
       <div class="protocol-card">
         <h3>📡 V2Ray / Xray</h3>
         <p>
-          <span class="lang-fa">
-            پشتیبانی کامل از هسته Xray. امکان استفاده از لینک‌های VLESS، VMess، Trojan، Shadowsocks و Hysteria2. قابلیت سابسکرایب، پینگ خودکار و انتخاب بهترین سرور را دارد.
-          </span>
-          <span class="lang-en">
-            Full Xray-core support. Works with VLESS, VMess, Trojan, Shadowsocks and Hysteria2 links. Includes subscription, auto-ping and best-server selection.
-          </span>
+          <span class="lang-fa">پشتیبانی کامل از Xray. لینک‌های VLESS، VMess، Trojan و Hysteria2. سابسکرایب و پینگ خودکار.</span>
+          <span class="lang-en">Full Xray support. Works with VLESS, VMess, Trojan and Hysteria2. Includes subscription and auto-ping.</span>
         </p>
       </div>
-
     </div>
 
-    <!-- Key Features -->
+    <!-- Features -->
     <h2 class="section-title">
       <span class="lang-fa">ویژگی‌های کلیدی</span>
       <span class="lang-en">Key Features</span>
     </h2>
     <div class="features">
       <div class="feature">
-        <h3>
-          <span class="lang-fa">اتصال هوشمند</span>
-          <span class="lang-en">Smart Connect</span>
-        </h3>
-        <p>
-          <span class="lang-fa">تست خودکار پروتکل‌ها و انتخاب سریع‌ترین مسیر پایدار</span>
-          <span class="lang-en">Automatically tests protocols and picks the fastest reliable route</span>
-        </p>
+        <h3><span class="lang-fa">اتصال هوشمند</span><span class="lang-en">Smart Connect</span></h3>
+        <p><span class="lang-fa">تست خودکار و انتخاب بهترین مسیر</span><span class="lang-en">Auto-test and select the best route</span></p>
       </div>
       <div class="feature">
-        <h3>
-          <span class="lang-fa">مقاوم در برابر فیلتر</span>
-          <span class="lang-en">Censorship Resistant</span>
-        </h3>
-        <p>
-          <span class="lang-fa">طراحی‌شده برای شبکه‌های محدود با قابلیت‌های مبهم‌سازی پیشرفته</span>
-          <span class="lang-en">Built for restricted networks with advanced obfuscation</span>
-        </p>
+        <h3><span class="lang-fa">مقاوم در برابر فیلتر</span><span class="lang-en">Censorship Resistant</span></h3>
+        <p><span class="lang-fa">طراحی‌شده برای شبکه‌های محدود</span><span class="lang-en">Built for restricted networks</span></p>
       </div>
       <div class="feature">
         <h3>Kill Switch</h3>
-        <p>
-          <span class="lang-fa">مسدودسازی ترافیک در صورت قطع ناگهانی تونل</span>
-          <span class="lang-en">Blocks traffic if the tunnel drops unexpectedly</span>
-        </p>
+        <p><span class="lang-fa">مسدودسازی ترافیک در صورت قطع تونل</span><span class="lang-en">Blocks traffic if tunnel drops</span></p>
       </div>
       <div class="feature">
         <h3>Split Tunneling</h3>
-        <p>
-          <span class="lang-fa">انتخاب اپ‌هایی که از VPN عبور کنند یا نکنند</span>
-          <span class="lang-en">Choose which apps go through the VPN or bypass it</span>
-        </p>
+        <p><span class="lang-fa">انتخاب اپ‌های خاص برای عبور از VPN</span><span class="lang-en">Choose which apps use the VPN</span></p>
       </div>
       <div class="feature">
-        <h3>
-          <span class="lang-fa">رابط دوزبانه</span>
-          <span class="lang-en">Bilingual UI</span>
-        </h3>
-        <p>
-          <span class="lang-fa">پشتیبانی کامل از فارسی و انگلیسی + تم تاریک مدرن</span>
-          <span class="lang-en">Full Persian & English support with modern dark theme</span>
-        </p>
+        <h3><span class="lang-fa">رابط دوزبانه</span><span class="lang-en">Bilingual UI</span></h3>
+        <p><span class="lang-fa">فارسی و انگلیسی + تم تاریک</span><span class="lang-en">Persian & English + dark theme</span></p>
       </div>
       <div class="feature">
-        <h3>
-          <span class="lang-fa">به‌روزرسانی داخل اپ</span>
-          <span class="lang-en">In-App Updates</span>
-        </h3>
-        <p>
-          <span class="lang-fa">بررسی و نصب نسخه جدید بدون نیاز به سایت خارجی</span>
-          <span class="lang-en">Check and install new versions directly inside the app</span>
-        </p>
+        <h3><span class="lang-fa">به‌روزرسانی داخل اپ</span><span class="lang-en">In-App Updates</span></h3>
+        <p><span class="lang-fa">نصب نسخه جدید بدون سایت خارجی</span><span class="lang-en">Install updates inside the app</span></p>
       </div>
     </div>
 
@@ -592,18 +638,29 @@
       <span class="lang-en">App Screenshots</span>
     </h2>
     <div class="gallery">
-      <div class="gallery-item"><img src="1.jpg" alt="Screenshot 1" loading="lazy"></div>
-      <div class="gallery-item"><img src="2.jpg" alt="Screenshot 2" loading="lazy"></div>
-      <div class="gallery-item"><img src="3.jpg" alt="Screenshot 3" loading="lazy"></div>
-      <div class="gallery-item"><img src="4.jpg" alt="Screenshot 4" loading="lazy"></div>
-      <div class="gallery-item"><img src="5.jpg" alt="Screenshot 5" loading="lazy"></div>
-      <div class="gallery-item"><img src="6.jpg" alt="Screenshot 6" loading="lazy"></div>
-      <div class="gallery-item"><img src="7.jpg" alt="Screenshot 7" loading="lazy"></div>
-      <div class="gallery-item"><img src="8.jpg" alt="Screenshot 8" loading="lazy"></div>
-      <div class="gallery-item"><img src="9.jpg" alt="Screenshot 9" loading="lazy"></div>
-      <div class="gallery-item"><img src="10.jpg" alt="Screenshot 10" loading="lazy"></div>
-      <div class="gallery-item"><img src="11.jpg" alt="Screenshot 11" loading="lazy"></div>
-      <div class="gallery-item"><img src="12.jpg" alt="Screenshot 12" loading="lazy"></div>
+      <div class="gallery-item"><img src="1.jpg" alt="Baran VPN Screenshot 1" loading="lazy"></div>
+      <div class="gallery-item"><img src="2.jpg" alt="Baran VPN Screenshot 2" loading="lazy"></div>
+      <div class="gallery-item"><img src="3.jpg" alt="Baran VPN Screenshot 3" loading="lazy"></div>
+      <div class="gallery-item"><img src="4.jpg" alt="Baran VPN Screenshot 4" loading="lazy"></div>
+      <div class="gallery-item"><img src="5.jpg" alt="Baran VPN Screenshot 5" loading="lazy"></div>
+      <div class="gallery-item"><img src="6.jpg" alt="Baran VPN Screenshot 6" loading="lazy"></div>
+      <div class="gallery-item"><img src="7.jpg" alt="Baran VPN Screenshot 7" loading="lazy"></div>
+      <div class="gallery-item"><img src="8.jpg" alt="Baran VPN Screenshot 8" loading="lazy"></div>
+      <div class="gallery-item"><img src="9.jpg" alt="Baran VPN Screenshot 9" loading="lazy"></div>
+      <div class="gallery-item"><img src="10.jpg" alt="Baran VPN Screenshot 10" loading="lazy"></div>
+      <div class="gallery-item"><img src="11.jpg" alt="Baran VPN Screenshot 11" loading="lazy"></div>
+      <div class="gallery-item"><img src="12.jpg" alt="Baran VPN Screenshot 12" loading="lazy"></div>
+    </div>
+
+    <!-- Hashtags -->
+    <div class="hashtags">
+      <span class="hashtag">#فیلترشکن</span>
+      <span class="hashtag">#وی_پی_ان</span>
+      <span class="hashtag">#BaranVPN</span>
+      <span class="hashtag">#Psiphon</span>
+      <span class="hashtag">#V2Ray</span>
+      <span class="hashtag">#فیلترشکن_رایگان</span>
+      <span class="hashtag">#VPN</span>
     </div>
 
     <footer>
@@ -611,9 +668,10 @@
         <span class="lang-fa">ساخته شده با ❤️ برای دسترسی آزاد به اینترنت</span>
         <span class="lang-en">Made with ❤️ for free access to the internet</span>
       </p>
-      <p style="margin-top: 10px;">
+      <p style="margin-top: 12px;">
         <a href="https://github.com/AppBaran/BaranVpn">GitHub</a> •
-        <a href="https://t.me/appFilmBaran">Telegram</a>
+        <a href="https://t.me/appFilmBaran">Telegram</a> •
+        <a href="https://instagram.com/appfilmBaran">Instagram</a>
       </p>
     </footer>
   </div>
