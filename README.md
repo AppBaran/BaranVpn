@@ -8,7 +8,8 @@
 
 ۱. فایل **[دانلود Baran vpn v 2.3.1 All device.apk](https://github.com/AppBaran/BaranVpn/releases/tag/v2.3.1)** را از بخش انتشار رسمی دریافت کنید.
 
----
+---> **🌐 صفحه اصلی پروژه:**  
+> [https://appbaran.github.io/BaranVpn/](https://appbaran.github.io/BaranVpn/)
 
 # تمامی پروتکل‌ها کار می‌کنند — مناسب همه اپراتورها — بیش از ۴۳۰ سرور فعال
 
