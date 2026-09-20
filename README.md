@@ -6,7 +6,7 @@
 نسخه فعلی: **2.2.3** | Current version: **2.2.3**  
 پکیج: `ir.baran.vpn` | حداقل اندروید: 8.0 (API 26)
 
-۱. فایل **[دانلود Baran vpn v 2.2.3 All device.apk](https://github.com/AppBaran/BaranVpn/releases/tag/v2.2.3)** را از بخش انتشار رسمی دریافت کنید.
+۱. فایل **[دانلود Baran vpn v 2.3.1 All device.apk](https://github.com/AppBaran/BaranVpn/releases/tag/v2.3.1)** را از بخش انتشار رسمی دریافت کنید.
 
 ---
 
