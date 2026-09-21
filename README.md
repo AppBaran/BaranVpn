@@ -23,6 +23,10 @@
   <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/1.jpg" width="25%" alt="Baran VPN" />
   <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/2.jpg" width="25%" alt="Baran VPN" />
   <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/5.jpg" width="25%" alt="Baran VPN" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/9.jpg" width="25%" alt="Baran VPN" />
+  <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/8.jpg" width="25%" alt="Baran VPN" />
   <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/6.jpg" width="25%" alt="Baran VPN" />
 </p>
 
