@@ -132,7 +132,7 @@
 
 ### نصب
 فایل APK را از بخش انتشار رسمی دریافت کنید:
-- [`Baran vpn v 2.2.3 All device.apk`](https://github.com/AppBaran/BaranVpn/releases/tag/v2.2.3)
+- [`Baran vpn v 2.5.0 All device.apk`](https://github.com/AppBaran/BaranVpn/releases/tag/v.2.5.0)
 
 یا از کانال تلگرام: [@appFilmBaran](https://t.me/appFilmBaran)
 
@@ -253,14 +253,14 @@ Or from the Telegram channel: [@appFilmBaran](https://t.me/appFilmBaran)
 | Item | Value |
 |------|-------|
 | Package | `ir.baran.vpn` |
-| Version | 2.2.3 |
+| Version | 2.5.0 |
 | Min SDK | 26 (Android 8.0) |
 | Target SDK | 35 |
 | Core | Psiphon Tunnel + Aether + Xray (V2ray/Shard) |
 | Architectures | armeabi-v7a, arm64-v8a, x86_64 (+ universal) |
 | Languages | Persian (fa), English |
 | Psiphon | V2.0.41 |
-| Aether | V2.0.0 |
+| Aether | V2.3.0 |
 | Xray | V26.9.9 |
 ---
 
