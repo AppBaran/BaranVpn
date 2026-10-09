@@ -6,7 +6,7 @@
 نسخه فعلی: **2.2.3** | Current version: **2.2.3**  
 پکیج: `ir.baran.vpn` | حداقل اندروید: 8.0 (API 26)
 
-۱. فایل **[دانلود Baran vpn v 2.3.1 All device.apk](https://github.com/AppBaran/BaranVpn/releases/tag/v2.3.1)** را از بخش انتشار رسمی دریافت کنید.
+۱. فایل **[دانلود Baran vpn v 2.3.1 All device.apk](https://github.com/AppBaran/BaranVpn/releases/tag/v.2.5.0)** را از بخش انتشار رسمی دریافت کنید.
 
 ---> **🌐 صفحه اصلی پروژه:**  
 > [https://appbaran.github.io/BaranVpn/](https://appbaran.github.io/BaranVpn/)
@@ -242,7 +242,7 @@ After these settings, Baran VPN will stay connected reliably on Redmi devices.
 
 ### Installation
 Download the APK from the official release:
-- [`Baran vpn v 2.2.3 All device.apk`](https://github.com/AppBaran/BaranVpn/releases/tag/v2.2.3)
+- [`Baran vpn v 2.5.0 All device.apk`](https://github.com/AppBaran/BaranVpn/releases/tag/v.2.5.0)
 
 Or from the Telegram channel: [@appFilmBaran](https://t.me/appFilmBaran)
 
