@@ -3,10 +3,10 @@
 **قوی‌ترین فیلترشکن روز دنیا برای اندروید**  
 **The strongest filter-breaker of the day for Android**
 
-نسخه فعلی: **2.2.3** | Current version: **2.2.3**  
+نسخه فعلی: **2.5.0** | Current version: **2.5.0**  
 پکیج: `ir.baran.vpn` | حداقل اندروید: 8.0 (API 26)
 
-۱. فایل **[دانلود Baran vpn v 2.3.1 All device.apk](https://github.com/AppBaran/BaranVpn/releases/tag/v.2.5.0)** را از بخش انتشار رسمی دریافت کنید.
+۱. فایل **[دانلود Baran vpn v 2.5.0 All device.apk](https://github.com/AppBaran/BaranVpn/releases/tag/v.2.5.0)** را از بخش انتشار رسمی دریافت کنید.
 
 ---> **🌐 صفحه اصلی پروژه:**  
 > [https://appbaran.github.io/BaranVpn/](https://appbaran.github.io/BaranVpn/)
