@@ -4,7 +4,7 @@ raw.githubusercontent.com/ebrasha/free-v2ray-public-list/refs/heads/main/vmess_c
 raw.githubusercontent.com/ebrasha/free-v2ray-public-list/refs/heads/main/trojan_configs.txt
 github.com/ebrasha/free-v2ray-public-list/raw/refs/heads/main/vless_configs.txt
 #  https://raw.githubusercontent.com/roosterkid/openproxylist/refs/heads/main/V2RAY_RAW.txt
-#  https://raw.githubusercontent.com/roosterkid/openproxylist/refs/heads/main/V2RAY_BASE64.txt
+#  https://raw.githubusercontent.com/3inker/v2ray-subscription/refs/heads/main/subs/all_ru.txt
 
 
 
