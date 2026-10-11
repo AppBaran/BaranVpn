@@ -5,7 +5,7 @@ raw.githubusercontent.com/ebrasha/free-v2ray-public-list/refs/heads/main/trojan_
 #  https://github.com/ebrasha/free-v2ray-public-list/raw/refs/heads/main/vless_configs.txt
 
 #  https://raw.githubusercontent.com/roosterkid/openproxylist/refs/heads/main/V2RAY_RAW.txt
-
+# https://raw.githubusercontent.com/roosterkid/openproxylist/refs/heads/main/V2RAY_BASE64.txt
 
 
 
