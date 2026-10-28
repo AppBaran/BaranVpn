@@ -1,57 +1,16 @@
 # 🌧️ Baran VPN
 
-### اینترنت آزاد برای همه، مثل باران!
-**Free Internet for Everyone, Like Rain!**
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/refs/heads/main/7b60c9bf-1745-4bdd-8eb9-f4f6f072b137.png" alt="Baran VPN Banner" width="100%">
+</p>
+
+<h3 align="center">اینترنت آزاد برای همه، مثل باران!</h3>
+
+<p align="center">
+  <strong>Free Internet for Everyone, Like Rain!</strong>
+</p>
 
 Baran VPN یک اپلیکیشن اندرویدی برای مدیریت اتصال‌های VPN، استفاده از پروتکل‌های مختلف، انتخاب سرور، مدیریت پروکسی و اشتراک‌گذاری اتصال در شبکه محلی است.
-
-<p align="center">
-  <a href="https://github.com/AppBaran/BaranVpn">
-    <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/3.jpg" width="30%" alt="Baran VPN Screenshot 1">
-  </a>
-  <a href="https://github.com/AppBaran/BaranVpn">
-    <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/4.jpg" width="30%" alt="Baran VPN Screenshot 2">
-  </a>
-  <a href="https://github.com/AppBaran/BaranVpn">
-    <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/7.jpg" width="30%" alt="Baran VPN Screenshot 3">
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/AppBaran/BaranVpn">
-    <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/1.jpg" width="30%" alt="Baran VPN Screenshot 4">
-  </a>
-  <a href="https://github.com/AppBaran/BaranVpn">
-    <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/2.jpg" width="30%" alt="Baran VPN Screenshot 5">
-  </a>
-  <a href="https://github.com/AppBaran/BaranVpn">
-    <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/5.jpg" width="30%" alt="Baran VPN Screenshot 6">
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/AppBaran/BaranVpn">
-    <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/9.jpg" width="30%" alt="Baran VPN Screenshot 7">
-  </a>
-  <a href="https://github.com/AppBaran/BaranVpn">
-    <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/8.jpg" width="30%" alt="Baran VPN Screenshot 8">
-  </a>
-  <a href="https://github.com/AppBaran/BaranVpn">
-    <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/6.jpg" width="30%" alt="Baran VPN Screenshot 9">
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/AppBaran/BaranVpn/releases/download/V.2.7.0/Baran.vpn.v.2.7.0.All.device.apk">
-    <img src="https://img.shields.io/badge/Download-APK-brightgreen?style=for-the-badge&logo=android" alt="Download APK">
-  </a>
-  <a href="https://github.com/AppBaran/BaranVpn">
-    <img src="https://img.shields.io/badge/GitHub-Source%20Code-black?style=for-the-badge&logo=github" alt="GitHub">
-  </a>
-  <a href="https://github.com/AppBaran/BaranVpn/stargazers">
-    <img src="https://img.shields.io/github/stars/AppBaran/BaranVpn?style=for-the-badge&logo=github&label=Stars" alt="GitHub Stars">
-  </a>
-</p>
 
 ---
 
@@ -264,13 +223,13 @@ Baran VPN یک اپلیکیشن اندرویدی برای مدیریت اتصا�
 
 ---
 
-## 🇬🇧 English
+# 🇬🇧 English
 
-# Baran VPN — Free Internet for Everyone, Like Rain!
+## Baran VPN — Free Internet for Everyone, Like Rain!
 
 Baran VPN is an Android application for managing VPN connections, using supported connection protocols, selecting servers, managing local proxies, and sharing connections over a local network.
 
-### Download
+## Download
 
 - **Version:** `2.7.0`
 - **Minimum Android version:** Android 7.0 (API 24)
@@ -279,7 +238,7 @@ Baran VPN is an Android application for managing VPN connections, using supporte
 
 **[Download Baran VPN APK](https://github.com/AppBaran/BaranVpn/releases/download/V.2.7.0/Baran.vpn.v.2.7.0.All.device.apk)**
 
-### Protocols and Connection Engines
+## Protocols and Connection Engines
 
 | Protocol / Engine | Description |
 |---|---|
@@ -294,7 +253,7 @@ Baran VPN is an Android application for managing VPN connections, using supporte
 | MASQUE 2 | MASQUE 2 feature support |
 | Tor | Connections through the Tor network |
 
-### Server Management
+## Server Management
 
 | Feature | Description |
 |---|---|
@@ -311,7 +270,7 @@ Baran VPN is an Android application for managing VPN connections, using supporte
 | Obfuscation | Traffic obfuscation support in compatible modes |
 | Custom Endpoint | Configure a custom endpoint |
 
-### Proxy and Connection Sharing
+## Proxy and Connection Sharing
 
 | Feature | Description |
 |---|---|
@@ -327,7 +286,7 @@ Baran VPN is an Android application for managing VPN connections, using supporte
 | WireGuard Sharing | Share WireGuard connections in supported modes |
 | V2Ray Sharing | Share V2Ray connections in supported modes |
 
-### Security and Connection Stability
+## Security and Connection Stability
 
 | Feature | Description |
 |---|---|
@@ -342,7 +301,7 @@ Baran VPN is an Android application for managing VPN connections, using supporte
 | SNI Spoofing | Support in applicable modes |
 | CDN Fronting | CDN Fronting support in the Psiphon engine |
 
-### App and Traffic Management
+## App and Traffic Management
 
 | Feature | Description |
 |---|---|
@@ -353,7 +312,7 @@ Baran VPN is an Android application for managing VPN connections, using supporte
 | Select All | Select all apps |
 | Clear All | Clear selected apps |
 
-### Interface and Monitoring
+## Interface and Monitoring
 
 | Feature | Description |
 |---|---|
@@ -369,7 +328,7 @@ Baran VPN is an Android application for managing VPN connections, using supporte
 | Android TV / Leanback | TV-friendly interface on compatible versions |
 | Notifications | Connection status notifications |
 
-### Advanced Settings and Updates
+## Advanced Settings and Updates
 
 | Feature | Description |
 |---|---|
@@ -385,18 +344,18 @@ Baran VPN is an Android application for managing VPN connections, using supporte
 | Forced Update | Supported in defined conditions |
 | Release Notes | View version changes |
 
-### Important Notice
+## Important Notice
 
 Connection availability and performance depend on network conditions, server availability, protocol compatibility, and application configuration. No protocol can guarantee connectivity during every type of network restriction or a complete loss of access to required external servers.
 
-### Official Links
+## Official Links
 
 - **GitHub:** https://github.com/AppBaran/BaranVpn
 - **Website:** https://appbaran.github.io/BaranVpn/
 - **Telegram:** https://t.me/appFilmBaran
 - **Instagram:** https://instagram.com/appFilmBaran
 
-### License
+## License
 
 Baran VPN is distributed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**. See the [`LICENSE`](LICENSE) file for details.
 
