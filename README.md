@@ -1,386 +1,407 @@
-# Baran VPN | باران وی‌پی‌ان 🚀
+# 🌧️ Baran VPN
 
-**قوی‌ترین فیلترشکن روز دنیا برای اندروید**
+### اینترنت آزاد برای همه، مثل باران!
+**Free Internet for Everyone, Like Rain!**
 
-**The strongest filter-breaker of the day for Android**
-
-نسخه فعلی: **2.6.0** | Current version: **2.6.0**
-
-پکیج: `ir.baran.vpn` | حداقل اندروید: 8.0 (API 26)
-
-## 📥 دانلود Baran VPN نسخه 2.6.0
-
-**[دانلود Baran VPN v2.6.0 All Devices APK](https://github.com/AppBaran/BaranVpn/releases/download/v2.6.0/Baran.vpn.v.2.6.0.All.device.apk)**
-
-**🌐 صفحه اصلی پروژه:**
-
-https://appbaran.github.io/BaranVpn/
-
-# تمامی پروتکل‌ها کار می‌کنند — مناسب همه اپراتورها — بیش از ۴۳۰ سرور فعال
+Baran VPN یک اپلیکیشن اندرویدی برای مدیریت اتصال‌های VPN، استفاده از پروتکل‌های مختلف، انتخاب سرور، مدیریت پروکسی و اشتراک‌گذاری اتصال در شبکه محلی است.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/3.jpg" width="25%" alt="Baran VPN" />
-  <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/4.jpg" width="25%" alt="Baran VPN" />
-  <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/7.jpg" width="25%" alt="Baran VPN" />
+  <a href="https://github.com/AppBaran/BaranVpn">
+    <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/3.jpg" width="30%" alt="Baran VPN Screenshot 1">
+  </a>
+  <a href="https://github.com/AppBaran/BaranVpn">
+    <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/4.jpg" width="30%" alt="Baran VPN Screenshot 2">
+  </a>
+  <a href="https://github.com/AppBaran/BaranVpn">
+    <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/7.jpg" width="30%" alt="Baran VPN Screenshot 3">
+  </a>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/1.jpg" width="25%" alt="Baran VPN" />
-  <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/2.jpg" width="25%" alt="Baran VPN" />
-  <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/5.jpg" width="25%" alt="Baran VPN" />
+  <a href="https://github.com/AppBaran/BaranVpn">
+    <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/1.jpg" width="30%" alt="Baran VPN Screenshot 4">
+  </a>
+  <a href="https://github.com/AppBaran/BaranVpn">
+    <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/2.jpg" width="30%" alt="Baran VPN Screenshot 5">
+  </a>
+  <a href="https://github.com/AppBaran/BaranVpn">
+    <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/5.jpg" width="30%" alt="Baran VPN Screenshot 6">
+  </a>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/9.jpg" width="25%" alt="Baran VPN" />
-  <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/8.jpg" width="25%" alt="Baran VPN" />
-  <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/6.jpg" width="25%" alt="Baran VPN" />
+  <a href="https://github.com/AppBaran/BaranVpn">
+    <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/9.jpg" width="30%" alt="Baran VPN Screenshot 7">
+  </a>
+  <a href="https://github.com/AppBaran/BaranVpn">
+    <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/8.jpg" width="30%" alt="Baran VPN Screenshot 8">
+  </a>
+  <a href="https://github.com/AppBaran/BaranVpn">
+    <img src="https://raw.githubusercontent.com/AppBaran/BaranVpn/main/6.jpg" width="30%" alt="Baran VPN Screenshot 9">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/AppBaran/BaranVpn/releases/download/V.2.7.0/Baran.vpn.v.2.7.0.All.device.apk">
+    <img src="https://img.shields.io/badge/Download-APK-brightgreen?style=for-the-badge&logo=android" alt="Download APK">
+  </a>
+  <a href="https://github.com/AppBaran/BaranVpn">
+    <img src="https://img.shields.io/badge/GitHub-Source%20Code-black?style=for-the-badge&logo=github" alt="GitHub">
+  </a>
+  <a href="https://github.com/AppBaran/BaranVpn/stargazers">
+    <img src="https://img.shields.io/github/stars/AppBaran/BaranVpn?style=for-the-badge&logo=github&label=Stars" alt="GitHub Stars">
+  </a>
 </p>
 
 ---
 
-## معرفی
+## 📥 دانلود Baran VPN
 
-**Baran VPN** یک کلاینت VPN پیشرفته و رایگان برای اندروید است که با تمرکز بر دور زدن سانسور اینترنت، به‌خصوص در ایران، طراحی شده است.
+**نسخه فعلی: 2.7.0**
 
-هسته اصلی برنامه بر پایه **Psiphon، Aether و Xray (V2ray/Shard)** ساخته شده و از پروتکل‌ها و فناوری‌هایی مانند WireGuard، Cloudflare WARP، MASQUE، Tor و V2ray پشتیبانی می‌کند.
+- **دانلود مستقیم APK:** [دانلود Baran VPN نسخه 2.7.0](https://github.com/AppBaran/BaranVpn/releases/download/V.2.7.0/Baran.vpn.v.2.7.0.All.device.apk)
+- **حداقل نسخه اندروید:** Android 7.0 (API 24)
+- **شناسه برنامه:** `ir.baran.vpn`
+- **تعداد سرورها:** بیش از ۲۸۰۰ سرور فعال، طبق اطلاعات پروژه
+- **مناطق سرور:** بیش از ۳۰ کشور، طبق اطلاعات پروژه
+- **هزینه استفاده از اپلیکیشن:** رایگان
 
-رابط کاربری مدرن، پشتیبانی از زبان فارسی و انگلیسی و امکانات حرفه‌ای مانند Split Tunneling، Kill Switch، اتصال هوشمند و انتخاب سرور، تجربه‌ای انعطاف‌پذیر برای کاربران فراهم می‌کند.
+> امکان اتصال به سرورها به وضعیت شبکه، سرور، پروتکل و محدودیت‌های موجود بستگی دارد. عملکرد بدون قطعی در همه شبکه‌ها تضمین نمی‌شود.
 
-## قابلیت‌ها (فهرست کامل امکانات)
+## ⭐ حمایت از پروژه
 
-### پروتکل‌ها و اتصال
+اگر Baran VPN برای شما مفید است، با دادن ستاره به مخزن GitHub از توسعه پروژه حمایت کنید. ⭐
 
-- **Smart Connect:** آزمایش خودکار پروتکل‌ها و انتخاب مسیر سریع و پایدار.
-- **WireGuard:** اتصال مبتنی بر پروتکل WireGuard.
-- **WARP (Cloudflare):** استفاده از زیرساخت Cloudflare برای مسیریابی ترافیک.
-- **Psiphon:** ابزار عبور از سانسور اینترنت با قابلیت زنجیره‌سازی پروکسی بالادست.
-- **Tor:** مسیریابی ترافیک از شبکه Tor با امکان انتخاب حامل WARP، WireGuard یا اتصال مستقیم.
-- **MASQUE Transport:** پشتیبانی از انتقال ترافیک مبتنی بر MASQUE.
-- **V2ray (Shard):** اتصال مبتنی بر Xray با امکانات پینگ خودکار، سابسکریپشن، علاقه‌مندی‌ها، فهرست سرورهای دستی و تاریخچه.
-- انتخاب سرور به‌صورت دستی یا انتخاب خودکار بر اساس بهترین پینگ.
-- به‌روزرسانی سابسکریپشن از داخل برنامه.
-- انتخاب منطقه خروجی (Egress Region) برای Psiphon همراه با نمایش پرچم و تعداد سرورها.
-- حالت اسکن IP و قابلیت Obfuscation.
-- پشتیبانی از اندپوینت سفارشی (Custom Endpoint).
+**[⭐ دادن Star به Baran VPN در GitHub](https://github.com/AppBaran/BaranVpn)**
 
-### حالت‌های اتصال
-
-- **Device VPN:** ایجاد تونل VPN برای مسیریابی ترافیک برنامه‌های دستگاه.
-- **Proxy:** ارائه پروکسی محلی SOCKS/HTTP بدون ایجاد آیکون VPN سیستم.
-- **Smart Connect:** انتخاب هوشمند مسیر اتصال مناسب.
-
-### امنیت و پایداری
-
-- **Kill Switch:** امکان مسدودسازی ترافیک در صورت قطع تونل، مطابق تنظیمات و پیاده‌سازی برنامه.
-- **Auto Reconnect:** تلاش برای اتصال مجدد خودکار.
-- مسیریابی DNS خصوصی (Private DNS).
-- رفتار Fail-closed در خطاهای تونل، برای جلوگیری از عبور ناخواسته ترافیک در شرایط پشتیبانی‌شده.
-- نمایش Exit IP، پینگ و وضعیت Upstream.
-
-### Split Tunneling (تونل اختصاصی)
-
-- **Include Mode:** فقط برنامه‌های انتخاب‌شده از VPN استفاده می‌کنند.
-- **Exclude Mode:** برنامه‌های انتخاب‌شده از تونل VPN مستثنا می‌شوند.
-- انتخاب آسان برنامه‌ها با قابلیت جستجو.
-- گزینه‌های Select All و Clear All برای انتخاب یا پاک‌کردن همه موارد.
-
-### پروکسی و اشتراک‌گذاری
-
-- پروکسی محلی SOCKS5 با آدرس پیش‌فرض `127.0.0.1:1819`.
-- قابلیت تغییر آدرس و پورت پروکسی.
-- **LAN Sharing:** اشتراک‌گذاری پروکسی SOCKS و HTTP با دستگاه‌های دیگر در شبکه محلی.
-- پشتیبانی از HTTP CONNECT Proxy روی پورت `8080` هنگام فعال‌بودن اشتراک‌گذاری LAN.
-- پشتیبانی از اشتراک‌گذاری LAN برای WARP، WireGuard و V2ray.
-
-### رابط کاربری و تجربه کاربری
-
-- تم تاریک (Dark Mode) به‌صورت پیش‌فرض.
-- پشتیبانی از زبان‌های فارسی و انگلیسی با امکان تغییر زبان.
-- انیمیشن‌های مدرن شامل Connection Orb، نمودارهای کوچک ترافیک (Sparkline) و جلوه‌های نئونی وضعیت.
-- نمایش لحظه‌ای ترافیک آپلود و دانلود به همراه نمودار.
-- جلوه نئونی وضعیت اتصال با رنگ‌های بنفش، زرد، سبز و قرمز.
-- لاگ زنده با ظاهر CMD برای V2ray و Psiphon.
-- جدول راهنمای مقایسه پروتکل‌ها در تنظیمات.
-- Quick Settings Tile برای اتصال و قطع اتصال با یک لمس.
-- پشتیبانی از Android TV و Leanback.
-- اعلان‌های وضعیت اتصال و به‌روزرسانی.
-
-### به‌روزرسانی و مدیریت
-
-- بررسی خودکار وجود نسخه‌های جدید.
-- دانلود به‌روزرسانی از داخل برنامه.
-- نصب به‌روزرسانی پس از تأیید کاربر.
-- امکان اعمال به‌روزرسانی اجباری در صورت نیاز.
-- نمایش توضیحات انتشار (Release Notes).
-
-### تنظیمات پیشرفته
-
-- تنظیم MTU.
-- انتخاب سطح لاگ‌گیری.
-- بازگرداندن تنظیمات به حالت پیش‌فرض (Reset to Defaults).
-- مشاهده و کپی لاگ‌های برنامه.
-- راهنمای داخلی پروتکل‌ها و پروکسی.
-- لینک گیت‌هاب پروژه و نمایش شماره نسخه برنامه.
-
-### سایر امکانات
-
-- لینک مستقیم به کانال تلگرام و اینستاگرام Film Baran.
-- معرفی برنامه Film Baran برای دسترسی به مجموعه فیلم‌ها و سریال‌ها.
-- رابط تبلیغاتی Film Baran با تم زرد و جلوه‌های نئونی چندرنگ.
+با معرفی پروژه به دوستانتان نیز به گسترش اینترنت آزاد کمک می‌کنید.
 
 ---
 
-## نکات مهم برای گوشی‌های شیائومی، ردمی و پوکو (MIUI / HyperOS)
+## 🚀 پروتکل‌ها و موتورهای اتصال
 
-سیستم‌عامل MIUI و HyperOS ممکن است برای کاهش مصرف باتری، برنامه‌های پس‌زمینه را محدود یا متوقف کند و باعث قطع اتصال VPN شود. برای افزایش پایداری اتصال، تنظیمات زیر را بررسی کنید. نام گزینه‌ها ممکن است بسته به مدل گوشی و نسخه سیستم‌عامل متفاوت باشد.
-
-### ۱. فعال‌کردن شروع خودکار (Autostart)
-
-به مسیر زیر بروید:
-
-تنظیمات ← برنامه‌ها ← مدیریت برنامه‌ها ← Baran VPN ← شروع خودکار
-
-گزینه شروع خودکار را فعال کنید.
-
-### ۲. حذف محدودیت باتری
-
-به تنظیمات باتری برنامه بروید:
-
-تنظیمات ← باتری ← صرفه‌جویی باتری برنامه‌ها ← Baran VPN
-
-در صورت وجود گزینه، حالت **بدون محدودیت (No restrictions)** را انتخاب کنید.
-
-### ۳. قفل‌کردن برنامه در پس‌زمینه
-
-1. صفحه برنامه‌های اخیر (Recent Apps) را باز کنید.
-2. کارت Baran VPN را پیدا کنید.
-3. در صورت پشتیبانی گوشی، کارت برنامه را نگه دارید و آیکون قفل را انتخاب کنید.
-
-### ۴. اجازه فعالیت در پس‌زمینه
-
-وارد اطلاعات برنامه Baran VPN شوید و مجوزهای مربوط به اجرای پس‌زمینه یا شروع فعالیت در پس‌زمینه را، در صورت وجود، فعال کنید.
-
-### ۵. فعال‌کردن Always-on VPN
-
-در صورت نیاز و پشتیبانی دستگاه:
-
-تنظیمات ← شبکه و اینترنت یا اتصال و اشتراک‌گذاری ← VPN ← تنظیمات Baran VPN
-
-گزینه **Always-on VPN** را فعال کنید.
-
-توجه داشته باشید که Always-on VPN ممکن است بر اساس تنظیمات اندروید، رفتار اتصال برنامه را تغییر دهد. گزینه مسدودسازی اتصال بدون VPN (Block connections without VPN) را فقط در صورتی فعال کنید که از عملکرد صحیح تونل مطمئن هستید؛ در غیر این صورت ممکن است دسترسی اینترنت قطع شود.
-
-### ۶. تنظیمات توسعه‌دهنده
-
-خاموش‌کردن بهینه‌سازی‌های سیستمی MIUI فقط در صورت نیاز و با آگاهی از پیامدهای آن توصیه می‌شود. این گزینه در همه نسخه‌ها وجود ندارد و تغییر آن ممکن است بر پایداری سیستم یا مصرف باتری تأثیر بگذارد.
-
-پس از اعمال تنظیمات، اتصال برنامه را آزمایش کنید. میزان پایداری به نسخه سیستم‌عامل، تنظیمات باتری، شبکه و سرور انتخاب‌شده نیز بستگی دارد.
-
----
-
-## نصب Baran VPN نسخه 2.6.0
-
-فایل APK را از لینک دانلود مستقیم دریافت کنید:
-
-**[دانلود Baran VPN v2.6.0 All Devices APK](https://github.com/AppBaran/BaranVpn/releases/download/v2.6.0/Baran.vpn.v.2.6.0.All.device.apk)**
-
-کانال تلگرام:
-
-[@appFilmBaran](https://t.me/appFilmBaran)
-
-پیش از نصب، مطمئن شوید فایل را از منبع رسمی دریافت کرده‌اید. اگر نصب از منابع ناشناس غیرفعال است، مجوز لازم را از تنظیمات اندروید فعال کنید.
-
----
-
-# English
-
-## Introduction
-
-**Baran VPN** is a free Android VPN client designed to help users circumvent internet censorship, particularly in restrictive network environments.
-
-Its core is built around **Psiphon, Aether, and Xray (V2ray/Shard)**, with support for technologies such as WireGuard, Cloudflare WARP, MASQUE, Tor, and V2ray.
-
-The app includes a modern interface, Persian and English language support, Split Tunneling, Kill Switch, Smart Connect, and advanced connection and proxy settings.
-
-## Features (Complete List)
-
-### Protocols & Connection
-
-- **Smart Connect:** Automatically tests supported protocols and selects a fast, reliable route.
-- **WireGuard:** Connectivity using the WireGuard protocol.
-- **WARP (Cloudflare):** Routes traffic through Cloudflare infrastructure.
-- **Psiphon:** Censorship-circumvention technology with upstream proxy chaining.
-- **Tor:** Routes traffic through the Tor network using WARP, WireGuard, or Direct as the carrier.
-- **MASQUE Transport:** Support for MASQUE-based transport.
-- **V2ray (Shard):** Xray-based connectivity with automatic ping checks, subscriptions, favorites, manual server lists, and connection history.
-- Manual server selection or automatic selection based on the best ping.
-- In-app subscription updates.
-- Psiphon egress-region selection with flags and server counts.
-- IP scanning and obfuscation modes.
-- Custom Endpoint support.
-
-### Connection Modes
-
-- **Device VPN:** Routes supported device traffic through the VPN tunnel.
-- **Proxy:** Provides local SOCKS/HTTP proxy access without creating the Android system VPN icon.
-- **Smart Connect:** Automatically selects a suitable connection route.
-
-### Security & Reliability
-
-- **Kill Switch:** Can block traffic when the tunnel drops, subject to implementation and configuration.
-- **Auto Reconnect:** Automatically attempts to reconnect.
-- Private DNS routing.
-- Fail-closed behavior for supported tunnel error conditions.
-- Exit IP, ping, and upstream status display.
-
-### Split Tunneling
-
-- **Include Mode:** Only selected apps use the VPN.
-- **Exclude Mode:** Selected apps bypass the VPN.
-- App selection with search.
-- Select All and Clear All controls.
-
-### Proxy & Sharing
-
-- Local SOCKS5 proxy at the default address `127.0.0.1:1819`.
-- Configurable proxy address and port.
-- **LAN Sharing:** Shares SOCKS and HTTP proxy access with other devices on the local network.
-- HTTP CONNECT proxy support on port `8080` when LAN sharing is enabled.
-- LAN sharing support for WARP, WireGuard, and V2ray.
-
-### UI & User Experience
-
-- Dark mode by default.
-- Persian and English languages.
-- Modern animations, including Connection Orb, traffic sparklines, and neon status effects.
-- Real-time upload and download traffic with charts.
-- Connection-state neon effects in purple, yellow, green, and red.
-- CMD-style live logs for V2ray and Psiphon.
-- Protocol comparison guide in Settings.
-- Quick Settings Tile for one-tap connection and disconnection.
-- Android TV / Leanback support.
-- Connection-status and update notifications.
-
-### Updates & Management
-
-- Automatic update checks.
-- In-app update downloads.
-- Update installation after user confirmation.
-- Forced updates when required.
-- Release notes display.
-
-### Advanced Settings
-
-- MTU configuration.
-- Log-level selection.
-- Reset to Defaults.
-- View and copy application logs.
-- Built-in protocol and proxy guides.
-- Project GitHub link and application version display.
-
-### Other Features
-
-- Direct links to Film Baran's Telegram and Instagram channels.
-- Promotion of the Film Baran app and its movie and TV-series collection.
-- Film Baran promotional interface with a yellow theme and multicolor neon effects.
-
----
-
-## Important Notes for Xiaomi / Redmi / Poco (MIUI / HyperOS)
-
-MIUI and HyperOS may restrict or terminate background apps to save battery, which can cause VPN disconnections. For improved stability, review the following settings. Menu names may vary by device and operating-system version.
-
-### 1. Enable Autostart
-
-Go to:
-
-Settings → Apps → Manage apps → Baran VPN → Autostart
-
-Enable Autostart if the option is available.
-
-### 2. Remove Battery Restrictions
-
-Go to the app's battery settings:
-
-Settings → Battery → App battery saver → Baran VPN
-
-Select **No restrictions** if available.
-
-### 3. Lock the App in Recents
-
-1. Open Recent Apps.
-2. Find the Baran VPN card.
-3. Long-press the card and tap the lock icon if your device supports this feature.
-
-### 4. Allow Background Activity
-
-Open Baran VPN's app information and enable available permissions related to background activity or background launching.
-
-### 5. Enable Always-on VPN
-
-If supported:
-
-Settings → Network & Internet or Connection & Sharing → VPN → Baran VPN settings
-
-Enable **Always-on VPN**.
-
-Depending on Android settings, enabling **Block connections without VPN** may interrupt internet access if the tunnel is unavailable. Enable it only when you understand the implications and have verified that the VPN works correctly.
-
-### 6. Developer Options
-
-Disabling MIUI system optimizations should only be considered when necessary and with an understanding of the possible consequences. The option is not available on every version and may affect system behavior or battery consumption.
-
-After applying these settings, test the connection. Stability also depends on the operating-system version, battery settings, network conditions, and selected server.
-
----
-
-## Installation — Baran VPN v2.6.0
-
-Download the APK using the direct link below:
-
-**[Download Baran VPN v2.6.0 All Devices APK](https://github.com/AppBaran/BaranVpn/releases/download/v2.6.0/Baran.vpn.v.2.6.0.All.device.apk)**
-
-Telegram channel:
-
-[@appFilmBaran](https://t.me/appFilmBaran)
-
-Before installation, make sure the APK comes from the official source. If Android blocks installation from unknown sources, enable the required permission in system settings.
-
----
-
-## Technical Details / جزئیات فنی
-
-| Item | Value |
+| پروتکل / موتور | توضیحات |
 |---|---|
-| Package | `ir.baran.vpn` |
-| Version | 2.6.0 |
-| Min SDK | 26 (Android 8.0) |
-| Target SDK | 35 (previously specified; verify against the v2.6.0 build) |
-| Core | Psiphon Tunnel + Aether + Xray (V2ray/Shard) |
-| Architectures | armeabi-v7a, arm64-v8a, x86_64 (+ universal, as previously specified) |
-| Languages | Persian (fa), English |
-| Psiphon | V2.0.41 (previously specified; verify against the v2.6.0 build) |
-| Aether | V2.3.0 (previously specified; verify against the v2.6.0 build) |
-| Xray | V26.9.9 (previously specified; verify against the v2.6.0 build) |
+| **Psiphon** | اتصال از طریق موتور Psiphon |
+| **Aether** | پشتیبانی از موتور اتصال Aether |
+| **Xray** | موتور اتصال برای پروتکل‌ها و کانفیگ‌های سازگار |
+| **V2Ray** | پشتیبانی از کانفیگ‌ها و سرورهای سازگار با V2Ray |
+| **Shard** | پشتیبانی از قابلیت‌ها و کانفیگ‌های مرتبط با Shard |
+| **WireGuard** | اتصال مبتنی بر پروتکل WireGuard |
+| **Cloudflare WARP** | اتصال از طریق سرویس WARP کلادفلر |
+| **MASQUE** | پشتیبانی از اتصال مبتنی بر MASQUE |
+| **MASQUE 2** | پشتیبانی از قابلیت MASQUE 2 |
+| **Tor** | پشتیبانی از اتصال از طریق شبکه Tor |
+
+## 🌐 انتخاب سرور و مدیریت اتصال
+
+| قابلیت | توضیحات |
+|---|---|
+| **Smart Connect** | انتخاب هوشمند روش یا سرور اتصال |
+| **Best Ping** | انتخاب سرور بر اساس پینگ |
+| **انتخاب دستی سرور** | انتخاب سرور دلخواه |
+| **سرورهای بین‌المللی** | دسترسی به سرورهای کشورهای مختلف |
+| **IP ثابت** | انتخاب سرور دارای IP ثابت، در صورت موجود بودن |
+| **اشتراک سرور** | مدیریت اشتراک‌های سرور |
+| **افزودن سرور دستی** | واردکردن سرور یا کانفیگ سفارشی |
+| **سرورهای محبوب** | ذخیره و دسترسی سریع به سرورهای موردعلاقه |
+| **تاریخچه اتصال** | دسترسی به سوابق اتصال |
+| **انتخاب منطقه Psiphon** | انتخاب منطقه خروجی همراه با پرچم و اطلاعات سرورها |
+| **IP Scanner** | ابزار اسکن IP |
+| **Obfuscation** | پشتیبانی از قابلیت‌های مبهم‌سازی ترافیک در حالت‌های سازگار |
+| **Custom Endpoint** | تنظیم Endpoint سفارشی |
+
+## 🔌 روش‌های اتصال و اشتراک‌گذاری پروکسی
+
+| قابلیت | توضیحات |
+|---|---|
+| **Device VPN** | ایجاد اتصال از طریق سرویس VPN اندروید |
+| **Local Proxy** | ارائه پروکسی محلی روی دستگاه |
+| **SOCKS5** | پشتیبانی از پروکسی SOCKS5 |
+| **HTTP Proxy** | پشتیبانی از پروکسی HTTP |
+| **پروکسی محلی پیش‌فرض** | `127.0.0.1:1819` |
+| **تنظیم آدرس و پورت** | امکان پیکربندی آدرس و پورت پروکسی |
+| **LAN Sharing** | اشتراک‌گذاری پروکسی با دستگاه‌های دیگر در شبکه محلی |
+| **SOCKS Sharing** | اشتراک‌گذاری اتصال از طریق SOCKS |
+| **HTTP Sharing** | اشتراک‌گذاری اتصال از طریق HTTP |
+| **HTTP CONNECT** | پشتیبانی از HTTP CONNECT؛ پورت پیش‌فرض اشتراک‌گذاری `8080` |
+| **اشتراک‌گذاری WARP** | اشتراک‌گذاری اتصال WARP در حالت‌های پشتیبانی‌شده |
+| **اشتراک‌گذاری WireGuard** | اشتراک‌گذاری اتصال WireGuard در حالت‌های پشتیبانی‌شده |
+| **اشتراک‌گذاری V2Ray** | اشتراک‌گذاری اتصال V2Ray در حالت‌های پشتیبانی‌شده |
+
+### نمونه تنظیم پروکسی در دستگاه دیگر
+
+اگر پروکسی را از طریق شبکه محلی به اشتراک می‌گذارید:
+
+1. اتصال VPN یا پروکسی را در گوشی اجرا کنید.
+2. قابلیت اشتراک‌گذاری در شبکه محلی را فعال کنید.
+3. آدرس IP محلی گوشی و پورت نمایش‌داده‌شده در برنامه را در دستگاه مقصد وارد کنید.
+4. نوع پروکسی را مطابق تنظیم برنامه انتخاب کنید؛ برای مثال SOCKS5 یا HTTP.
+
+برای اتصال از دستگاه دیگر، به‌جای `127.0.0.1` باید از **آدرس IP محلی گوشی میزبان** استفاده کنید. پورت و نوع پروکسی را مطابق مقادیر واقعی نمایش‌داده‌شده در برنامه وارد کنید.
+
+## 🛡️ امنیت و پایداری اتصال
+
+| قابلیت | توضیحات |
+|---|---|
+| **Kill Switch** | محدودسازی ترافیک در شرایط پشتیبانی‌شده برای کاهش خطر نشت اتصال |
+| **Auto Reconnect** | تلاش برای اتصال مجدد پس از قطع ارتباط |
+| **Private DNS** | امکان استفاده از تنظیمات DNS خصوصی |
+| **Always-on VPN** | سازگاری با قابلیت VPN همیشه‌فعال اندروید |
+| **Fail-Closed** | جلوگیری از عبور ترافیک در شرایط مشخص و پشتیبانی‌شده |
+| **Exit IP** | نمایش IP خروجی اتصال |
+| **Ping Monitor** | مشاهده پینگ اتصال |
+| **Upstream Status** | نمایش وضعیت اتصال بالادستی |
+| **SNI Spoofing** | پشتیبانی از قابلیت SNI Spoofing در حالت‌های مربوطه |
+| **CDN Fronting** | پشتیبانی از CDN Fronting در موتور Psiphon |
+
+> توجه: قابلیت‌های امنیتی، SNI Spoofing، CDN Fronting و روش‌های عبور از محدودیت‌ها به پیاده‌سازی برنامه، سرور و شرایط شبکه وابسته‌اند. در صورت قطع کامل ارتباط با سرورهای موردنیاز، هیچ پروتکلی نمی‌تواند اتصال را تضمین کند.
+
+## 📱 مدیریت ترافیک برنامه‌ها
+
+| قابلیت | توضیحات |
+|---|---|
+| **Split Tunneling** | تعیین برنامه‌هایی که از تونل عبور می‌کنند یا از آن خارج می‌مانند |
+| **Include Apps** | عبور دادن برنامه‌های انتخاب‌شده از تونل |
+| **Exclude Apps** | خارج کردن برنامه‌های انتخاب‌شده از تونل |
+| **جست‌وجوی برنامه‌ها** | پیدا کردن سریع برنامه‌ها در فهرست |
+| **Select All** | انتخاب همه برنامه‌ها |
+| **Clear All** | پاک‌کردن انتخاب‌ها |
+
+## 🎨 رابط کاربری و نمایش وضعیت
+
+| قابلیت | توضیحات |
+|---|---|
+| **تم تیره** | رابط کاربری با تم تیره |
+| **فارسی و انگلیسی** | پشتیبانی از زبان‌های فارسی و انگلیسی |
+| **Connection Orb** | نمایش گرافیکی وضعیت اتصال |
+| **Neon Status** | نمایش بصری وضعیت اتصال |
+| **Traffic Charts** | نمایش نمودارهای ترافیک |
+| **Sparklines** | نمایش خلاصه تغییرات در نمودارهای کوچک |
+| **CMD-Style Logs** | نمایش گزارش‌های متنی با سبک ترمینال برای V2Ray و Psiphon |
+| **Protocol Comparison** | مقایسه اطلاعات پروتکل‌ها |
+| **Quick Settings Tile** | دسترسی سریع به کنترل اتصال از پنل تنظیمات اندروید |
+| **Android TV / Leanback** | رابط مناسب تلویزیون‌های اندرویدی در نسخه‌های سازگار |
+| **Notifications** | نمایش اعلان‌های وضعیت اتصال |
+
+## ⚙️ تنظیمات پیشرفته و عیب‌یابی
+
+| قابلیت | توضیحات |
+|---|---|
+| **MTU** | تنظیم مقدار MTU |
+| **Log Level** | تنظیم سطح ثبت گزارش‌ها |
+| **View Logs** | مشاهده گزارش‌های برنامه |
+| **Copy Logs** | کپی گزارش‌ها برای بررسی خطا |
+| **Reset Defaults** | بازگرداندن تنظیمات به حالت پیش‌فرض |
+| **Connection Guides** | راهنماهای اتصال و تنظیمات |
+| **Version Information** | نمایش اطلاعات نسخه نصب‌شده |
+| **GitHub Link** | دسترسی به مخزن پروژه |
+
+## 🔄 به‌روزرسانی برنامه
+
+| قابلیت | توضیحات |
+|---|---|
+| **Update Check** | بررسی انتشار نسخه جدید |
+| **Download Update** | دانلود نسخه جدید در حالت‌های پشتیبانی‌شده |
+| **Install Confirmation** | درخواست تأیید کاربر پیش از نصب |
+| **Forced Update** | پشتیبانی از به‌روزرسانی اجباری در شرایط تعریف‌شده |
+| **Release Notes** | نمایش توضیحات تغییرات نسخه |
+
+## 🎬 امکانات جانبی
+
+| قابلیت | توضیحات |
+|---|---|
+| **Film Baran** | دسترسی به بخش معرفی اپلیکیشن فیلم باران |
+| **Telegram** | دسترسی به کانال تلگرام |
+| **Instagram** | دسترسی به صفحه اینستاگرام |
+
+## 📲 نصب برنامه
+
+1. فایل APK را از لینک دانلود رسمی دریافت کنید.
+2. فایل دانلودشده را در گوشی اندرویدی باز کنید.
+3. در صورت درخواست، اجازه نصب برنامه از منبع انتخاب‌شده را در تنظیمات اندروید فعال کنید.
+4. نصب را تکمیل و برنامه را اجرا کنید.
+5. برای ایجاد اتصال VPN، درخواست مجوز سیستم اندروید را تأیید کنید.
+
+**[دانلود مستقیم Baran VPN نسخه 2.7.0](https://github.com/AppBaran/BaranVpn/releases/download/V.2.7.0/Baran.vpn.v.2.7.0.All.device.apk)**
+
+## 📡 نکات اتصال در گوشی‌های Xiaomi، MIUI و HyperOS
+
+| تنظیم | پیشنهاد |
+|---|---|
+| **Autostart** | فعال‌کردن شروع خودکار برنامه، در صورت نیاز |
+| **Battery Saver** | انتخاب حالت No restrictions برای کاهش محدودیت باتری |
+| **Recent Apps** | قفل‌کردن برنامه در فهرست برنامه‌های اخیر، در صورت وجود این گزینه |
+| **Background Activity** | اجازه فعالیت در پس‌زمینه |
+| **Always-on VPN** | فعال‌کردن در صورت نیاز و سازگاری دستگاه |
+| **Block connections without VPN** | با احتیاط فعال شود؛ قطع VPN ممکن است دسترسی اینترنت را مسدود کند |
+
+## 🧰 اطلاعات فنی
+
+| مشخصه | مقدار |
+|---|---|
+| **نام برنامه** | Baran VPN |
+| **Package ID** | `ir.baran.vpn` |
+| **نسخه فعلی** | `2.7.0` |
+| **حداقل نسخه اندروید اعلام‌شده** | Android 7.0 (API 24) |
+| **زبان‌های رابط کاربری** | فارسی و انگلیسی |
+| **نوع مجوز** | GNU AGPL-3.0 |
+| **فایل مجوز** | `LICENSE` |
+
+## 🔗 لینک‌های رسمی
+
+| عنوان | لینک |
+|---|---|
+| **مخزن GitHub** | [AppBaran/BaranVpn](https://github.com/AppBaran/BaranVpn) |
+| **دانلود APK** | [نسخه 2.7.0](https://github.com/AppBaran/BaranVpn/releases/download/V.2.7.0/Baran.vpn.v.2.7.0.All.device.apk) |
+| **وب‌سایت پروژه** | [appbaran.github.io/BaranVpn](https://appbaran.github.io/BaranVpn/) |
+| **کانال تلگرام** | [AppFilmBaran](https://t.me/appFilmBaran) |
+| **اینستاگرام** | [appFilmBaran](https://instagram.com/appFilmBaran) |
+
+## 📄 مجوز
+
+این پروژه تحت مجوز **GNU Affero General Public License v3.0 (AGPL-3.0)** منتشر می‌شود. برای جزئیات کامل، فایل [`LICENSE`](LICENSE) را در مخزن مطالعه کنید.
 
 ---
 
-## License
+## 🇬🇧 English
 
-This project is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.
+# Baran VPN — Free Internet for Everyone, Like Rain!
 
-See the [LICENSE](LICENSE) file for details.
+Baran VPN is an Android application for managing VPN connections, using supported connection protocols, selecting servers, managing local proxies, and sharing connections over a local network.
 
-## Links
+### Download
 
-- **Direct APK Download:** https://github.com/AppBaran/BaranVpn/releases/download/v2.6.0/Baran.vpn.v.2.6.0.All.device.apk
-- **GitHub Repository:** https://github.com/AppBaran/BaranVpn
-- **Project Website:** https://appbaran.github.io/BaranVpn/
+- **Version:** `2.7.0`
+- **Minimum Android version:** Android 7.0 (API 24)
+- **Package ID:** `ir.baran.vpn`
+- **License:** GNU AGPL-3.0
+
+**[Download Baran VPN APK](https://github.com/AppBaran/BaranVpn/releases/download/V.2.7.0/Baran.vpn.v.2.7.0.All.device.apk)**
+
+### Protocols and Connection Engines
+
+| Protocol / Engine | Description |
+|---|---|
+| Psiphon | Psiphon-based connection engine |
+| Aether | Aether connection engine |
+| Xray | Engine for compatible protocols and configurations |
+| V2Ray | Compatible V2Ray servers and configurations |
+| Shard | Support for related Shard configurations and features |
+| WireGuard | WireGuard-based connections |
+| Cloudflare WARP | Connections through Cloudflare WARP |
+| MASQUE | MASQUE protocol support |
+| MASQUE 2 | MASQUE 2 feature support |
+| Tor | Connections through the Tor network |
+
+### Server Management
+
+| Feature | Description |
+|---|---|
+| Smart Connect | Smart connection or server selection |
+| Best Ping | Select servers based on ping |
+| Manual Server Selection | Choose a preferred server |
+| Static IP | Select servers with static IPs when available |
+| Server Subscriptions | Manage server subscriptions |
+| Custom Servers | Add servers manually |
+| Favorites | Save preferred servers |
+| Connection History | Access previous connection records |
+| Psiphon Regions | Select exit regions with flags and server information |
+| IP Scanner | IP scanning utility |
+| Obfuscation | Traffic obfuscation support in compatible modes |
+| Custom Endpoint | Configure a custom endpoint |
+
+### Proxy and Connection Sharing
+
+| Feature | Description |
+|---|---|
+| Device VPN | Uses Android's VPN service |
+| Local Proxy | Provides a local proxy |
+| SOCKS5 | SOCKS5 proxy support |
+| HTTP Proxy | HTTP proxy support |
+| Default Local Proxy | `127.0.0.1:1819` |
+| Custom Address and Port | Configure proxy address and port |
+| LAN Sharing | Share a proxy with devices on the local network |
+| HTTP CONNECT | HTTP CONNECT support; default sharing port `8080` |
+| WARP Sharing | Share WARP connections in supported modes |
+| WireGuard Sharing | Share WireGuard connections in supported modes |
+| V2Ray Sharing | Share V2Ray connections in supported modes |
+
+### Security and Connection Stability
+
+| Feature | Description |
+|---|---|
+| Kill Switch | Restricts traffic in supported conditions |
+| Auto Reconnect | Attempts to reconnect after a disconnection |
+| Private DNS | Private DNS configuration support |
+| Always-on VPN | Compatibility with Android Always-on VPN |
+| Fail-Closed | Blocks traffic in defined, supported conditions |
+| Exit IP | Displays the connection's exit IP |
+| Ping Monitor | Displays ping information |
+| Upstream Status | Displays upstream connection status |
+| SNI Spoofing | Support in applicable modes |
+| CDN Fronting | CDN Fronting support in the Psiphon engine |
+
+### App and Traffic Management
+
+| Feature | Description |
+|---|---|
+| Split Tunneling | Control which apps use the tunnel |
+| Include Apps | Route selected apps through the tunnel |
+| Exclude Apps | Exclude selected apps from the tunnel |
+| App Search | Find apps quickly |
+| Select All | Select all apps |
+| Clear All | Clear selected apps |
+
+### Interface and Monitoring
+
+| Feature | Description |
+|---|---|
+| Dark Theme | Dark user interface |
+| Persian and English | Multilingual interface |
+| Connection Orb | Graphical connection status |
+| Neon Status | Visual connection indicators |
+| Traffic Charts | Traffic visualization |
+| Sparklines | Compact trend charts |
+| CMD-Style Logs | Terminal-style V2Ray and Psiphon logs |
+| Protocol Comparison | Protocol information comparison |
+| Quick Settings Tile | Quick access from Android's Quick Settings |
+| Android TV / Leanback | TV-friendly interface on compatible versions |
+| Notifications | Connection status notifications |
+
+### Advanced Settings and Updates
+
+| Feature | Description |
+|---|---|
+| MTU | Configure MTU |
+| Log Level | Configure logging level |
+| View and Copy Logs | Review and copy logs for troubleshooting |
+| Reset Defaults | Restore default settings |
+| Connection Guides | Connection and configuration guides |
+| Version Information | View installed version details |
+| Update Check | Check for new versions |
+| Download Update | Download updates in supported modes |
+| Install Confirmation | Confirm before installation |
+| Forced Update | Supported in defined conditions |
+| Release Notes | View version changes |
+
+### Important Notice
+
+Connection availability and performance depend on network conditions, server availability, protocol compatibility, and application configuration. No protocol can guarantee connectivity during every type of network restriction or a complete loss of access to required external servers.
+
+### Official Links
+
+- **GitHub:** https://github.com/AppBaran/BaranVpn
+- **Website:** https://appbaran.github.io/BaranVpn/
 - **Telegram:** https://t.me/appFilmBaran
-- **Instagram:** https://instagram.com/appfilmBaran
+- **Instagram:** https://instagram.com/appFilmBaran
+
+### License
+
+Baran VPN is distributed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**. See the [`LICENSE`](LICENSE) file for details.
 
 ---
 
-**Made with ❤️ for free internet access**
+**If you find Baran VPN useful, please ⭐ star the repository on GitHub to support the project!**
 
-**ساخته‌شده با ❤️ برای دسترسی آزاد به اینترنت**
+[⭐ Star Baran VPN](https://github.com/AppBaran/BaranVpn)
