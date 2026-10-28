@@ -10,22 +10,25 @@
   <strong>Free Internet for Everyone, Like Rain!</strong>
 </p>
 
-Baran VPN یک اپلیکیشن اندرویدی برای مدیریت اتصال‌های VPN، استفاده از پروتکل‌های مختلف، انتخاب سرور، مدیریت پروکسی و اشتراک‌گذاری اتصال در شبکه محلی است.
+Baran VPN یک اپلیکیشن اندرویدی برای مدیریت اتصال‌های VPN، استفاده از پروتکل‌های مختلف، انتخاب سرور، مدیریت پروکسی و اشتراک‌گذاری اتصال در شبکه محلی است. این برنامه با ارائه روش‌های اتصال متنوع، به کاربران کمک می‌کند برای دسترسی به سرویس‌های آنلاین، ابزارهای هوش مصنوعی و وب‌سایت‌هایی که دسترسی به آن‌ها محدود است، روش اتصال مناسب‌تری پیدا کنند.
 
 ---
 
 ## 📥 دانلود Baran VPN
 
-**نسخه فعلی: 2.7.0**
+| مشخصات | اطلاعات |
+|---|---|
+| نسخه فعلی | `2.7.0` |
+| حداقل نسخه اندروید اعلام‌شده | Android 7.0 (API 24) |
+| شناسه برنامه | `ir.baran.vpn` |
+| تعداد سرورها | بیش از ۲۸۰۰ سرور فعال، طبق اطلاعات پروژه |
+| کشورهای دارای سرور | بیش از ۳۰ کشور، طبق اطلاعات پروژه |
+| هزینه استفاده از اپلیکیشن | رایگان |
+| مجوز پروژه | GNU AGPL-3.0 |
 
-- **دانلود مستقیم APK:** [دانلود Baran VPN نسخه 2.7.0](https://github.com/AppBaran/BaranVpn/releases/download/V.2.7.0/Baran.vpn.v.2.7.0.All.device.apk)
-- **حداقل نسخه اندروید:** Android 7.0 (API 24)
-- **شناسه برنامه:** `ir.baran.vpn`
-- **تعداد سرورها:** بیش از ۲۸۰۰ سرور فعال، طبق اطلاعات پروژه
-- **مناطق سرور:** بیش از ۳۰ کشور، طبق اطلاعات پروژه
-- **هزینه استفاده از اپلیکیشن:** رایگان
+**[⬇️ دانلود مستقیم Baran VPN نسخه 2.7.0](https://github.com/AppBaran/BaranVpn/releases/download/V.2.7.0/Baran.vpn.v.2.7.0.All.device.apk)**
 
-> امکان اتصال به سرورها به وضعیت شبکه، سرور، پروتکل و محدودیت‌های موجود بستگی دارد. عملکرد بدون قطعی در همه شبکه‌ها تضمین نمی‌شود.
+> دسترسی به سرورها و سرویس‌های آنلاین به شرایط شبکه، عملکرد سرورها، تنظیمات اتصال و محدودیت‌های سرویس مقصد بستگی دارد. اتصال موفق در تمام شرایط تضمین‌شده نیست.
 
 ## ⭐ حمایت از پروژه
 
@@ -33,7 +36,7 @@ Baran VPN یک اپلیکیشن اندرویدی برای مدیریت اتصا�
 
 **[⭐ دادن Star به Baran VPN در GitHub](https://github.com/AppBaran/BaranVpn)**
 
-با معرفی پروژه به دوستانتان نیز به گسترش اینترنت آزاد کمک می‌کنید.
+با معرفی پروژه به دوستانتان نیز به گسترش دسترسی آزاد به اینترنت کمک می‌کنید.
 
 ---
 
@@ -70,6 +73,21 @@ Baran VPN یک اپلیکیشن اندرویدی برای مدیریت اتصا�
 | **Obfuscation** | پشتیبانی از قابلیت‌های مبهم‌سازی ترافیک در حالت‌های سازگار |
 | **Custom Endpoint** | تنظیم Endpoint سفارشی |
 
+## 🤖 هوش مصنوعی و سرویس‌های آنلاین
+
+Baran VPN برای کاربرانی که با محدودیت دسترسی به وب‌سایت‌ها و سرویس‌های آنلاین مواجه‌اند، روش‌های اتصال متنوعی ارائه می‌دهد. با انتخاب سرور و پروتکل مناسب، می‌توان برای دسترسی به سرویس‌های هوش مصنوعی و ابزارهای آنلاین تلاش کرد.
+
+| قابلیت | توضیحات |
+|---|---|
+| **دسترسی آسان به ابزارهای هوش مصنوعی** | کمک به اتصال به سرویس‌ها و وب‌سایت‌های هوش مصنوعی از طریق اتصال‌های پشتیبانی‌شده |
+| **Google Flow** | فراهم‌کردن امکان تلاش برای دسترسی به Google Flow در شبکه‌هایی که دسترسی به آن محدود است |
+| **سرویس‌های آنلاین گوگل** | امکان امتحان‌کردن سرورها و پروتکل‌های مختلف برای دسترسی به سرویس‌های تحت وب گوگل |
+| **انتخاب سرور مناسب** | امکان تغییر سرور و روش اتصال برای بررسی عملکرد بهتر سرویس مقصد |
+| **پروتکل‌های متنوع** | استفاده از روش‌های مختلف اتصال متناسب با شرایط شبکه |
+| **مدیریت اتصال** | مشاهده وضعیت اتصال و تلاش برای اتصال مجدد در صورت قطع ارتباط |
+
+**نکته مهم:** VPN ممکن است محدودیت‌های مبتنی بر مسیر شبکه یا IP را برطرف کند، اما تضمینی برای رفع محدودیت منطقه‌ای، شرایط حساب کاربری، تأیید هویت یا سیاست‌های خود سرویس‌هایی مانند Google Flow نیست. نتیجه به شرایط سرویس مقصد و شبکه بستگی دارد.
+
 ## 🔌 روش‌های اتصال و اشتراک‌گذاری پروکسی
 
 | قابلیت | توضیحات |
@@ -88,16 +106,14 @@ Baran VPN یک اپلیکیشن اندرویدی برای مدیریت اتصا�
 | **اشتراک‌گذاری WireGuard** | اشتراک‌گذاری اتصال WireGuard در حالت‌های پشتیبانی‌شده |
 | **اشتراک‌گذاری V2Ray** | اشتراک‌گذاری اتصال V2Ray در حالت‌های پشتیبانی‌شده |
 
-### نمونه تنظیم پروکسی در دستگاه دیگر
-
-اگر پروکسی را از طریق شبکه محلی به اشتراک می‌گذارید:
+### نحوه اشتراک‌گذاری پروکسی
 
 1. اتصال VPN یا پروکسی را در گوشی اجرا کنید.
 2. قابلیت اشتراک‌گذاری در شبکه محلی را فعال کنید.
 3. آدرس IP محلی گوشی و پورت نمایش‌داده‌شده در برنامه را در دستگاه مقصد وارد کنید.
-4. نوع پروکسی را مطابق تنظیم برنامه انتخاب کنید؛ برای مثال SOCKS5 یا HTTP.
+4. نوع پروکسی را مطابق تنظیمات برنامه، مانند SOCKS5 یا HTTP، انتخاب کنید.
 
-برای اتصال از دستگاه دیگر، به‌جای `127.0.0.1` باید از **آدرس IP محلی گوشی میزبان** استفاده کنید. پورت و نوع پروکسی را مطابق مقادیر واقعی نمایش‌داده‌شده در برنامه وارد کنید.
+برای اتصال از دستگاه دیگر، به‌جای `127.0.0.1` از **آدرس IP محلی گوشی میزبان** استفاده کنید. دستگاه‌ها باید به شبکه‌ای دسترسی داشته باشند که امکان برقراری ارتباط با گوشی میزبان را فراهم می‌کند.
 
 ## 🛡️ امنیت و پایداری اتصال
 
@@ -114,7 +130,7 @@ Baran VPN یک اپلیکیشن اندرویدی برای مدیریت اتصا�
 | **SNI Spoofing** | پشتیبانی از قابلیت SNI Spoofing در حالت‌های مربوطه |
 | **CDN Fronting** | پشتیبانی از CDN Fronting در موتور Psiphon |
 
-> توجه: قابلیت‌های امنیتی، SNI Spoofing، CDN Fronting و روش‌های عبور از محدودیت‌ها به پیاده‌سازی برنامه، سرور و شرایط شبکه وابسته‌اند. در صورت قطع کامل ارتباط با سرورهای موردنیاز، هیچ پروتکلی نمی‌تواند اتصال را تضمین کند.
+> عملکرد این قابلیت‌ها به پیاده‌سازی برنامه، پروتکل، سرور و شرایط شبکه وابسته است. هیچ روش اتصالی نمی‌تواند دسترسی پایدار را در تمام شرایط تضمین کند.
 
 ## 📱 مدیریت ترافیک برنامه‌ها
 
@@ -174,7 +190,7 @@ Baran VPN یک اپلیکیشن اندرویدی برای مدیریت اتصا�
 | **Telegram** | دسترسی به کانال تلگرام |
 | **Instagram** | دسترسی به صفحه اینستاگرام |
 
-## 📲 نصب برنامه
+## 📲 راهنمای نصب
 
 1. فایل APK را از لینک دانلود رسمی دریافت کنید.
 2. فایل دانلودشده را در گوشی اندرویدی باز کنید.
@@ -229,14 +245,21 @@ Baran VPN یک اپلیکیشن اندرویدی برای مدیریت اتصا�
 
 Baran VPN is an Android application for managing VPN connections, using supported connection protocols, selecting servers, managing local proxies, and sharing connections over a local network.
 
+It provides multiple connection options that may help users access online services, AI tools, and websites that are restricted on certain networks.
+
 ## Download
 
-- **Version:** `2.7.0`
-- **Minimum Android version:** Android 7.0 (API 24)
-- **Package ID:** `ir.baran.vpn`
-- **License:** GNU AGPL-3.0
+| Specification | Details |
+|---|---|
+| Version | `2.7.0` |
+| Minimum Android version | Android 7.0 (API 24) |
+| Package ID | `ir.baran.vpn` |
+| Servers | 2,800+ active servers, according to project information |
+| Server regions | 30+ countries, according to project information |
+| Price | Free |
+| License | GNU AGPL-3.0 |
 
-**[Download Baran VPN APK](https://github.com/AppBaran/BaranVpn/releases/download/V.2.7.0/Baran.vpn.v.2.7.0.All.device.apk)**
+**[⬇️ Download Baran VPN APK](https://github.com/AppBaran/BaranVpn/releases/download/V.2.7.0/Baran.vpn.v.2.7.0.All.device.apk)**
 
 ## Protocols and Connection Engines
 
@@ -270,6 +293,21 @@ Baran VPN is an Android application for managing VPN connections, using supporte
 | Obfuscation | Traffic obfuscation support in compatible modes |
 | Custom Endpoint | Configure a custom endpoint |
 
+## 🤖 AI Tools and Online Services
+
+Baran VPN offers different connection options that may help users access online services and AI tools when network access is restricted.
+
+| Feature | Description |
+|---|---|
+| **Easy Access to AI Tools** | Connection options that may help users reach online AI services and websites |
+| **Google Flow** | Provides connection options for attempting to access Google Flow on restricted networks |
+| **Google Web Services** | Try different servers and connection protocols to access supported Google web services |
+| **Server Selection** | Switch servers and connection methods to find a suitable route |
+| **Multiple Connection Protocols** | Choose among supported connection methods based on network conditions |
+| **Connection Management** | Monitor connection status and attempt to reconnect when disconnected |
+
+**Important:** A VPN may help with network-routing or IP-based restrictions, but it cannot guarantee removal of regional eligibility rules, account restrictions, identity verification requirements, or other policies imposed by services such as Google Flow. Availability depends on the destination service and network conditions.
+
 ## Proxy and Connection Sharing
 
 | Feature | Description |
@@ -281,6 +319,8 @@ Baran VPN is an Android application for managing VPN connections, using supporte
 | Default Local Proxy | `127.0.0.1:1819` |
 | Custom Address and Port | Configure proxy address and port |
 | LAN Sharing | Share a proxy with devices on the local network |
+| SOCKS Sharing | Share connections through SOCKS |
+| HTTP Sharing | Share connections through HTTP |
 | HTTP CONNECT | HTTP CONNECT support; default sharing port `8080` |
 | WARP Sharing | Share WARP connections in supported modes |
 | WireGuard Sharing | Share WireGuard connections in supported modes |
@@ -344,16 +384,54 @@ Baran VPN is an Android application for managing VPN connections, using supporte
 | Forced Update | Supported in defined conditions |
 | Release Notes | View version changes |
 
-## Important Notice
+## Additional Features
 
-Connection availability and performance depend on network conditions, server availability, protocol compatibility, and application configuration. No protocol can guarantee connectivity during every type of network restriction or a complete loss of access to required external servers.
+| Feature | Description |
+|---|---|
+| Film Baran | Access the Film Baran app promotion section |
+| Telegram | Access the official Telegram channel |
+| Instagram | Access the official Instagram page |
+
+## Installation
+
+1. Download the APK from the official download link.
+2. Open the downloaded APK on your Android device.
+3. If prompted, allow installation from the selected source in Android settings.
+4. Complete the installation and launch the application.
+5. Approve Android's VPN permission request to establish a VPN connection.
+
+## Xiaomi, MIUI and HyperOS Tips
+
+| Setting | Recommendation |
+|---|---|
+| Autostart | Enable automatic startup if needed |
+| Battery Saver | Choose No restrictions to reduce battery-related limitations |
+| Recent Apps | Lock the app in recent apps if the option is available |
+| Background Activity | Allow background activity |
+| Always-on VPN | Enable if needed and supported by the device |
+| Block connections without VPN | Use carefully; internet access may be blocked if the VPN disconnects |
+
+## Technical Information
+
+| Specification | Value |
+|---|---|
+| Application Name | Baran VPN |
+| Package ID | `ir.baran.vpn` |
+| Current Version | `2.7.0` |
+| Minimum Android Version | Android 7.0 (API 24) |
+| Interface Languages | Persian and English |
+| License | GNU AGPL-3.0 |
+| License File | `LICENSE` |
 
 ## Official Links
 
-- **GitHub:** https://github.com/AppBaran/BaranVpn
-- **Website:** https://appbaran.github.io/BaranVpn/
-- **Telegram:** https://t.me/appFilmBaran
-- **Instagram:** https://instagram.com/appFilmBaran
+| Resource | Link |
+|---|---|
+| GitHub Repository | [AppBaran/BaranVpn](https://github.com/AppBaran/BaranVpn) |
+| Direct APK Download | [Version 2.7.0](https://github.com/AppBaran/BaranVpn/releases/download/V.2.7.0/Baran.vpn.v.2.7.0.All.device.apk) |
+| Project Website | [appbaran.github.io/BaranVpn](https://appbaran.github.io/BaranVpn/) |
+| Telegram | [AppFilmBaran](https://t.me/appFilmBaran) |
+| Instagram | [appFilmBaran](https://instagram.com/appFilmBaran) |
 
 ## License
 
