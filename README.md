@@ -22,7 +22,7 @@ Baran VPN یک اپلیکیشن اندرویدی برای مدیریت اتصا�
 
 | مشخصات | اطلاعات |
 |---|---|
-| نسخه فعلی | `2.7.0` |
+| نسخه فعلی | `2.8.0` |
 | حداقل نسخه اندروید اعلام‌شده | Android 7.0 (API 24) |
 | شناسه برنامه | `ir.baran.vpn` |
 | تعداد سرورها | بیش از ۲۸۰۰ سرور فعال، طبق اطلاعات پروژه |
@@ -30,7 +30,7 @@ Baran VPN یک اپلیکیشن اندرویدی برای مدیریت اتصا�
 | هزینه استفاده از اپلیکیشن | رایگان |
 | مجوز پروژه | GNU AGPL-3.0 |
 
-**[⬇️ دانلود مستقیم Baran VPN نسخه 2.7.0](https://github.com/AppBaran/BaranVpn/releases/download/V.2.7.0/Baran.vpn.v.2.7.0.All.device.apk)**
+**[⬇️ دانلود مستقیم Baran VPN نسخه 2.8.0](https://github.com/AppBaran/BaranVpn/releases/download/V.2.8.0/Baran.vpn.v.2.8.0.All.device.apk)**
 
 > دسترسی به سرورها و سرویس‌های آنلاین به شرایط شبکه، عملکرد سرورها، تنظیمات اتصال و محدودیت‌های سرویس مقصد بستگی دارد. اتصال موفق در تمام شرایط تضمین‌شده نیست.
 
@@ -202,7 +202,7 @@ Baran VPN برای کاربرانی که با محدودیت دسترسی به �
 4. نصب را تکمیل و برنامه را اجرا کنید.
 5. برای ایجاد اتصال VPN، درخواست مجوز سیستم اندروید را تأیید کنید.
 
-**[دانلود مستقیم Baran VPN نسخه 2.7.0](https://github.com/AppBaran/BaranVpn/releases/download/V.2.7.0/Baran.vpn.v.2.7.0.All.device.apk)**
+**[دانلود مستقیم Baran VPN نسخه 2.8.0](https://github.com/AppBaran/BaranVpn/releases/download/V.2.8.0/Baran.vpn.v.2.8.0.All.device.apk)**
 
 ## 📡 نکات اتصال در گوشی‌های Xiaomi، MIUI و HyperOS
 
@@ -221,7 +221,7 @@ Baran VPN برای کاربرانی که با محدودیت دسترسی به �
 |---|---|
 | **نام برنامه** | Baran VPN |
 | **Package ID** | `ir.baran.vpn` |
-| **نسخه فعلی** | `2.7.0` |
+| **نسخه فعلی** | `2.8.0` |
 | **حداقل نسخه اندروید اعلام‌شده** | Android 7.0 (API 24) |
 | **زبان‌های رابط کاربری** | فارسی و انگلیسی |
 | **نوع مجوز** | GNU AGPL-3.0 |
@@ -232,7 +232,7 @@ Baran VPN برای کاربرانی که با محدودیت دسترسی به �
 | عنوان | لینک |
 |---|---|
 | **مخزن GitHub** | [AppBaran/BaranVpn](https://github.com/AppBaran/BaranVpn) |
-| **دانلود APK** | [نسخه 2.7.0](https://github.com/AppBaran/BaranVpn/releases/download/V.2.7.0/Baran.vpn.v.2.7.0.All.device.apk) |
+| **دانلود APK** | [نسخه 2.8.0](https://github.com/AppBaran/BaranVpn/releases/download/V.2.8.0/Baran.vpn.v.2.8.0.All.device.apk) |
 | **وب‌سایت پروژه** | [appbaran.github.io/BaranVpn](https://appbaran.github.io/BaranVpn/) |
 | **کانال تلگرام** | [AppFilmBaran](https://t.me/appFilmBaran) |
 | **اینستاگرام** | [appFilmBaran](https://instagram.com/appFilmBaran) |
@@ -255,7 +255,7 @@ It provides multiple connection options that may help users access online servic
 
 | Specification | Details |
 |---|---|
-| Version | `2.7.0` |
+| Version | `2.8.0` |
 | Minimum Android version | Android 7.0 (API 24) |
 | Package ID | `ir.baran.vpn` |
 | Servers | 2,800+ active servers, according to project information |
@@ -263,7 +263,7 @@ It provides multiple connection options that may help users access online servic
 | Price | Free |
 | License | GNU AGPL-3.0 |
 
-**[⬇️ Download Baran VPN APK](https://github.com/AppBaran/BaranVpn/releases/download/V.2.7.0/Baran.vpn.v.2.7.0.All.device.apk)**
+**[⬇️ Download Baran VPN APK](https://github.com/AppBaran/BaranVpn/releases/download/V.2.8.0/Baran.vpn.v.2.8.0.All.device.apk)**
 
 ## Protocols and Connection Engines
 
@@ -421,7 +421,7 @@ Baran VPN offers different connection options that may help users access online 
 |---|---|
 | Application Name | Baran VPN |
 | Package ID | `ir.baran.vpn` |
-| Current Version | `2.7.0` |
+| Current Version | `2.8.0` |
 | Minimum Android Version | Android 7.0 (API 24) |
 | Interface Languages | Persian and English |
 | License | GNU AGPL-3.0 |
@@ -432,7 +432,7 @@ Baran VPN offers different connection options that may help users access online 
 | Resource | Link |
 |---|---|
 | GitHub Repository | [AppBaran/BaranVpn](https://github.com/AppBaran/BaranVpn) |
-| Direct APK Download | [Version 2.7.0](https://github.com/AppBaran/BaranVpn/releases/download/V.2.7.0/Baran.vpn.v.2.7.0.All.device.apk) |
+| Direct APK Download | [Version 2.8.0](https://github.com/AppBaran/BaranVpn/releases/download/V.2.8.0/Baran.vpn.v.2.8.0.All.device.apk) |
 | Project Website | [appbaran.github.io/BaranVpn](https://appbaran.github.io/BaranVpn/) |
 | Telegram | [AppFilmBaran](https://t.me/appFilmBaran) |
 | Instagram | [appFilmBaran](https://instagram.com/appFilmBaran) |
